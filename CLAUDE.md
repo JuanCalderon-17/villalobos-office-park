@@ -126,6 +126,15 @@ Este site é estático e **não deve** ter adapter, KV ou Images.
 ⚠️ Enquanto o contrato terceirizado estiver ativo, **não apontar o DNS de
 `villalobosofficepark.com.br`** para cá. A URL `.pages.dev` é a demo.
 
+## Favicon
+
+O favicon é o `site_icon` real do WordPress original (não o foguete padrão do Astro, que
+veio no scaffold e ficou esquecido até ser notado na aba do navegador). Fonte:
+`wp-content/uploads/2025/10/cropped-238314201_..._n-192x192.jpg` do site original — o mesmo
+logo-flor usado no header. Gerado em `favicon.ico`, `favicon-32x32.png`,
+`favicon-192x192.png` e `apple-touch-icon.png` a partir desse JPEG 192×192. Se o WordPress
+trocar o site_icon, repetir a conversão a partir da nova URL.
+
 ## Assets
 
 O vídeo do hero foi recomprimido de 44,6 MB para 11,2 MB (H.264, CRF 27, sem áudio,
