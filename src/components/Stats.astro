@@ -7,13 +7,12 @@ const stats = [
   { num: "727", label: "Unidades Comerciais", peso: 225, alinha: "items-center text-center" },
 ];
 
-// Cada foto entra com uma animação diferente no original (canto superior
-// esquerdo desliza de baixo, superior direito desliza da direita, etc).
+// Sem animação de entrada: no original estas fotos aparecem estáticas.
 const gallery = [
-  { src: "/img/Foto-VillaBobosOfficePark5.jpg", anim: "slideInUp" },
-  { src: "/img/Foto-VillaBobosOfficePark3-1.jpg", anim: "slideInRight" },
-  { src: "/img/Foto-VillaBobosOfficePark2.jpg", anim: "fadeInLeft" },
-  { src: "/img/Foto-VillaBobosOfficePark4.jpg", anim: "fadeInUp" },
+  "/img/Foto-VillaBobosOfficePark5.jpg",
+  "/img/Foto-VillaBobosOfficePark3-1.jpg",
+  "/img/Foto-VillaBobosOfficePark2.jpg",
+  "/img/Foto-VillaBobosOfficePark4.jpg",
 ];
 ---
 
@@ -43,15 +42,13 @@ const gallery = [
 
       <div class="mt-[26px] grid grid-cols-2 gap-x-[31px] gap-y-[21px]">
         {
-          gallery.map((foto) => (
+          gallery.map((src) => (
             <img
-              src={foto.src}
+              src={src}
               alt=""
               width="379"
               height="291"
               loading="lazy"
-              data-reveal={foto.anim}
-              data-reveal-delay="500"
               class="h-[291px] w-full object-cover"
             />
           ))

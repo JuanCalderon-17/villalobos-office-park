@@ -4,8 +4,10 @@ import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import EmpresaCard from "../components/EmpresaCard.astro";
 import data from "../data/empresas.json";
+import icones from "../data/categorias-icones.json";
 
 const { categorias, empresas } = data;
+const iconesPorCategoria = new Map(icones.map((i) => [i.filtro, i]));
 ---
 
 <Base
@@ -20,31 +22,120 @@ const { categorias, empresas } = data;
     </div>
 
     <div class="mx-auto max-w-[1522px] px-6 py-9 lg:px-[200px]">
-      <div class="mb-8 flex flex-wrap gap-2" role="group" aria-label="Filtrar por categoria">
-        <button
-          type="button"
-          data-filtro="todas"
-          aria-pressed="true"
-          class="filtro rounded-[8px] bg-mint px-4 py-2 text-[14px] leading-[18px] text-white"
-        >
-          Todas ({empresas.length})
-        </button>
-        {
-          categorias.map((cat) => (
+      <div class="mb-4 rounded-[16px] bg-white shadow-sm">
+        <div class="flex flex-col divide-y divide-haze lg:flex-row lg:divide-x lg:divide-y-0">
+          <div class="flex-1 px-8 py-6">
+            <label for="busca" class="sr-only">O que você procura?</label>
+            <input
+              type="text"
+              id="busca"
+              placeholder="O que você procura?"
+              autocomplete="off"
+              class="w-full border-0 bg-transparent p-0 text-[16px] leading-[20px] text-ink placeholder:text-graytext focus:ring-0 focus:outline-none"
+            />
+          </div>
+
+          <div class="relative px-8 py-4 lg:w-[340px] lg:shrink-0">
             <button
               type="button"
-              data-filtro={cat}
-              aria-pressed="false"
-              class="filtro rounded-[8px] bg-white px-4 py-2 text-[14px] leading-[18px] text-carbon"
+              id="categoria-trigger"
+              aria-haspopup="listbox"
+              aria-expanded="false"
+              class="flex w-full cursor-pointer items-center justify-between gap-3 text-left"
             >
-              {cat}
+              <span class="min-w-0">
+                <span class="block text-[12px] leading-[14px] text-graytext">Categoria</span>
+                <span id="categoria-label" class="mt-1 block truncate text-[16px] leading-[20px] text-ink">
+                  Categoria
+                </span>
+              </span>
+              <span class="flex shrink-0 items-center gap-2">
+                <span
+                  id="categoria-limpar"
+                  role="button"
+                  tabindex="0"
+                  aria-label="Limpar categoria"
+                  hidden
+                  class="flex h-6 w-6 items-center justify-center rounded-full bg-mist text-[13px] leading-none text-graytext hover:bg-haze"
+                >
+                  ×
+                </span>
+                <svg
+                  id="categoria-seta"
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  aria-hidden="true"
+                  class="shrink-0 text-graytext transition-transform"
+                >
+                  <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </span>
             </button>
-          ))
-        }
+
+            <div
+              id="categoria-painel"
+              hidden
+              role="listbox"
+              class="absolute top-full right-0 left-0 z-20 mt-2 rounded-[12px] bg-white p-3 shadow-lg"
+            >
+              <input
+                type="text"
+                id="categoria-busca"
+                placeholder="Buscar categoria"
+                autocomplete="off"
+                class="mb-2 w-full rounded-[8px] border border-haze px-3 py-2 text-[14px] text-ink placeholder:text-graytext focus:border-mint focus:outline-none"
+              />
+              <ul class="max-h-[260px] overflow-y-auto">
+                <li>
+                  <button
+                    type="button"
+                    data-filtro="todas"
+                    class="categoria-opcao flex w-full items-center gap-3 rounded-[8px] px-3 py-2 text-left text-[14px] text-ink hover:bg-mist"
+                  >
+                    <span class="categoria-opcao-texto truncate">Todas as categorias</span>
+                  </button>
+                </li>
+                {
+                  categorias.map((cat) => {
+                    const icone = iconesPorCategoria.get(cat);
+                    return (
+                      <li>
+                        <button
+                          type="button"
+                          data-filtro={cat}
+                          class="categoria-opcao flex w-full items-center gap-3 rounded-[8px] px-3 py-2 text-left text-[14px] text-ink hover:bg-mist"
+                        >
+                          {icone ? (
+                            <svg
+                              viewBox={icone.viewBox}
+                              width="16"
+                              height="16"
+                              fill="currentColor"
+                              aria-hidden="true"
+                              class="shrink-0 text-sand-claro"
+                              set:html={icone.inner}
+                            />
+                          ) : (
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true" class="shrink-0 text-sand-claro">
+                              <circle cx="12" cy="12" r="4" fill="currentColor" />
+                            </svg>
+                          )}
+                          <span class="categoria-opcao-texto truncate">{cat}</span>
+                        </button>
+                      </li>
+                    );
+                  })
+                }
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
 
       <p id="contador" class="mb-6 text-[14px] text-graytext" aria-live="polite">
-        Mostrando {empresas.length} empresas
+        {empresas.length} Itens Encontrados
       </p>
 
       <div id="grade" class="grid grid-cols-1 gap-[30px] sm:grid-cols-2 lg:grid-cols-3">
@@ -57,48 +148,114 @@ const { categorias, empresas } = data;
 </Base>
 
 <script>
-  const botoes = document.querySelectorAll<HTMLButtonElement>(".filtro");
   const cards = document.querySelectorAll<HTMLElement>("#grade > article");
   const contador = document.getElementById("contador");
+  const busca = document.getElementById("busca") as HTMLInputElement | null;
 
-  const ativo = "bg-mint text-white";
-  const inativo = "bg-white text-carbon";
+  const trigger = document.getElementById("categoria-trigger") as HTMLButtonElement | null;
+  const seta = document.getElementById("categoria-seta");
+  const painel = document.getElementById("categoria-painel");
+  const label = document.getElementById("categoria-label");
+  const limpar = document.getElementById("categoria-limpar");
+  const buscaCategoria = document.getElementById("categoria-busca") as HTMLInputElement | null;
+  const opcoes = document.querySelectorAll<HTMLButtonElement>(".categoria-opcao");
 
-  const aplicar = (botao: HTMLButtonElement) => {
-      const filtro = botao.dataset.filtro!;
+  let filtroAtual = "todas";
 
-      botoes.forEach((b) => {
-        const on = b === botao;
-        b.setAttribute("aria-pressed", String(on));
-        b.classList.toggle("bg-mint", on);
-        b.classList.toggle("text-white", on);
-        b.classList.toggle("bg-white", !on);
-        b.classList.toggle("text-carbon", !on);
-      });
+  const normalizar = (texto: string) =>
+    texto
+      .normalize("NFD")
+      .replace(/[̀-ͯ]/g, "")
+      .toLowerCase();
 
-      let visiveis = 0;
-      cards.forEach((card) => {
-        const cats = (card.dataset.categorias || "").split("|");
-        const mostrar = filtro === "todas" || cats.includes(filtro);
-        card.hidden = !mostrar;
-        if (mostrar) visiveis++;
-      });
+  const aplicarFiltros = () => {
+    const termo = normalizar(busca?.value.trim() || "");
 
-      if (contador) {
-        contador.textContent =
-          visiveis === 1 ? "Mostrando 1 empresa" : `Mostrando ${visiveis} empresas`;
-      }
+    let visiveis = 0;
+    cards.forEach((card) => {
+      const cats = (card.dataset.categorias || "").split("|");
+      const nome = normalizar(card.dataset.nome || "");
+      const naCategoria = filtroAtual === "todas" || cats.includes(filtroAtual);
+      const noNome = termo === "" || nome.includes(termo);
+      const mostrar = naCategoria && noNome;
+      card.hidden = !mostrar;
+      if (mostrar) visiveis++;
+    });
+
+    if (contador) {
+      contador.textContent =
+        visiveis === 1 ? "1 Item Encontrado" : `${visiveis} Itens Encontrados`;
+    }
   };
 
-  botoes.forEach((botao) => botao.addEventListener("click", () => aplicar(botao)));
+  const abrirPainel = () => {
+    painel?.removeAttribute("hidden");
+    trigger?.setAttribute("aria-expanded", "true");
+    seta?.classList.add("rotate-180");
+    buscaCategoria?.focus();
+  };
+
+  const fecharPainel = () => {
+    painel?.setAttribute("hidden", "");
+    trigger?.setAttribute("aria-expanded", "false");
+    seta?.classList.remove("rotate-180");
+  };
+
+  trigger?.addEventListener("click", () => {
+    if (painel?.hasAttribute("hidden")) abrirPainel();
+    else fecharPainel();
+  });
+
+  document.addEventListener("click", (evento) => {
+    const alvo = evento.target as Node;
+    if (painel && !painel.hasAttribute("hidden") && !painel.contains(alvo) && !trigger?.contains(alvo)) {
+      fecharPainel();
+    }
+  });
+
+  document.addEventListener("keydown", (evento) => {
+    if (evento.key === "Escape") fecharPainel();
+  });
+
+  const selecionarCategoria = (botao: HTMLButtonElement) => {
+    filtroAtual = botao.dataset.filtro!;
+    const texto = botao.querySelector(".categoria-opcao-texto")?.textContent ?? "Categoria";
+
+    if (label) label.textContent = filtroAtual === "todas" ? "Categoria" : texto;
+    limpar?.toggleAttribute("hidden", filtroAtual === "todas");
+
+    fecharPainel();
+    aplicarFiltros();
+  };
+
+  opcoes.forEach((botao) => botao.addEventListener("click", () => selecionarCategoria(botao)));
+
+  limpar?.addEventListener("click", (evento) => {
+    evento.stopPropagation();
+    const todas = [...opcoes].find((b) => b.dataset.filtro === "todas");
+    if (todas) selecionarCategoria(todas);
+  });
+  limpar?.addEventListener("keydown", (evento) => {
+    if (evento.key === "Enter" || evento.key === " ") {
+      evento.preventDefault();
+      (limpar as HTMLElement).click();
+    }
+  });
+
+  buscaCategoria?.addEventListener("input", () => {
+    const termo = normalizar(buscaCategoria.value.trim());
+    opcoes.forEach((botao) => {
+      const texto = normalizar(botao.querySelector(".categoria-opcao-texto")?.textContent || "");
+      (botao.closest("li") as HTMLElement).hidden = termo !== "" && !texto.includes(termo);
+    });
+  });
+
+  busca?.addEventListener("input", aplicarFiltros);
 
   // Links vindos da Home (/empresas?categoria=Saúde) já abrem filtrados
   const pedida = new URLSearchParams(location.search).get("categoria");
   if (pedida) {
-    const alvo = [...botoes].find((b) => b.dataset.filtro === pedida);
-    if (alvo) {
-      aplicar(alvo);
-      alvo.scrollIntoView({ block: "center" });
-    }
+    const alvo = [...opcoes].find((b) => b.dataset.filtro === pedida);
+    if (alvo) selecionarCategoria(alvo);
   }
 </script>

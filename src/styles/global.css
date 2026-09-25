@@ -17,6 +17,8 @@
   --color-sand-claro: #c2b6a2;
   /* Fundo dos blocos de números: texto branco grande atinge 3.3:1 (WCAG AA large) */
   --color-sand-bloco: #9c8b6e;
+  /* Verde claro original, só para fundo de ícone decorativo (não usar em texto) */
+  --color-mint-claro: #a3c2b3;
 
   --font-sans: "Roboto", sans-serif;
   --font-display: "Manrope", sans-serif;
@@ -62,6 +64,10 @@ body {
   opacity: 1;
   transform: translateX(60px);
 }
+[data-reveal="slideInDown"] {
+  opacity: 1;
+  transform: translateY(-60px);
+}
 
 [data-reveal].revelado {
   opacity: 1;
@@ -73,5 +79,24 @@ body {
     opacity: 1;
     transform: none;
     transition: none;
+  }
+}
+
+/* Foto que fica parada enquanto a página rola (profundidade), como no original.
+   Só a partir de lg: iOS Safari ignora background-attachment:fixed junto com
+   background-size:cover e renderiza a imagem esticada e fora de lugar. */
+.foto-fixa {
+  background-attachment: scroll;
+}
+
+@media (min-width: 1024px) {
+  .foto-fixa {
+    background-attachment: fixed;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .foto-fixa {
+    background-attachment: scroll;
   }
 }

@@ -83,6 +83,23 @@ Recriadas com CSS + IntersectionObserver, sem biblioteca:
 Os deslocamentos usam distância fixa (45–60px) em vez do `-100%` do animate.css, que
 causaria overflow horizontal. Os delays por elemento seguem os do original.
 
+## Foto fixa no scroll (profundidade)
+
+Quatro seções do original usam `background-attachment: fixed` — a foto fica parada
+enquanto a seção rola por cima, criando profundidade. Classe `.foto-fixa` em `global.css`:
+
+| Página | Seção | `background-position` |
+|---|---|---|
+| Home | CTA "INTERESSADO EM FAZER PARTE…" | `50% 100%` |
+| Sobre Nós | Banner com o logo claro | `50% 0%` |
+| Sobre Nós | CTA "CONHEÇA NOSSOS ESPAÇOS…" | `50% 50%` |
+| Contato | Hero "FALE CONOSCO" | `50% 50%` |
+
+O efeito só liga a partir de `lg`. **iOS Safari ignora `background-attachment: fixed`
+combinado com `background-size: cover`** e renderiza a foto esticada e fora de lugar, então
+abaixo de 1024px fica `scroll` (a foto simplesmente rola junto, sem quebrar nada). Também
+desliga com `prefers-reduced-motion`.
+
 ## Regra de fidelidade visual
 
 Ao recriar qualquer seção, **medir o original, não estimar a partir de screenshot**: rodar

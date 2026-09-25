@@ -2,6 +2,9 @@
   "permissions": {
     "allow": [
       "PowerShell(npm create astro@latest . -- --template minimal --typescript strict --no-install --no-git --skip-houston --yes)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\juanc\\.cache\\chrome-devtools-mcp\\chrome-profile"
     ]
   }
 }

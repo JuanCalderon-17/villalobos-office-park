@@ -1,61 +1,93 @@
 ---
+// Cada diferencial é um par: card branco (texto centralizado) + foto ao lado.
+// Duas linhas de dois pares, como no original.
 const items = [
   {
-    title: "SALAS DE REUNIÃO E AUDITÓRIOS",
+    titulo: "SALAS DE REUNIÃO E AUDITÓRIOS",
     desc: "Espaços com equipamentos multimídia e suporte técnico, disponíveis para locação por condôminos e público externo.",
-    icon: "door",
+    icone: "porta",
+    foto: "/img/infra/salas.webp",
+    anim: "slideInUp",
   },
   {
-    title: "SEGURANÇA 24 HORAS",
+    titulo: "SEGURANÇA 24 HORAS",
     desc: "Sistema de monitoramento avançado e vagas amplas para visitantes e condôminos, garantindo tranquilidade.",
-    icon: "clock",
+    icone: "relogio",
+    foto: "/img/infra/seguranca.webp",
+    anim: "slideInRight",
   },
   {
-    title: "LOCALIZAÇÃO ESTRATÉGICA",
+    titulo: "LOCALIZAÇÃO ESTRATÉGICA",
     desc: "Em frente ao Parque Villa Lobos, com vista privilegiada e fácil acesso pelas principais vias da cidade.",
-    icon: "pin",
+    icone: "seta",
+    foto: "/img/infra/localizacao.webp",
+    anim: "fadeInLeft",
   },
   {
-    title: "SERVIÇOS DE CONVENIÊNCIA",
+    titulo: "SERVIÇOS DE CONVENIÊNCIA",
     desc: "Lojas, doca de descarregamento, mensageria, estacionamento e muito mais!",
-    icon: "store",
+    icone: "relogio",
+    foto: "/img/infra/conveniencia.webp",
+    anim: "fadeInUp",
   },
 ];
 
-const icons: Record<string, string> = {
-  door: '<path d="M3 21h18M6 21V4a1 1 0 0 1 1-1h7l5 3v15M13 12v1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>',
-  clock: '<circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5" fill="none"/><path d="M12 7v5l3 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>',
-  pin: '<path d="M12 21s7-6.5 7-11.5A7 7 0 0 0 5 9.5C5 14.5 12 21 12 21Z" stroke="currentColor" stroke-width="1.5" fill="none"/><circle cx="12" cy="9.5" r="2.5" stroke="currentColor" stroke-width="1.5" fill="none"/>',
-  store: '<path d="M4 9V4h16v5M4 9l1 11h14l1-11M4 9h16M9 20v-6h6v6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>',
+const icones: Record<string, string> = {
+  porta:
+    '<path d="M3 21h18M6 21V4a1 1 0 0 1 1-1h7l5 3v15M13 12v1.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>',
+  relogio:
+    '<circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8" fill="none"/><path d="M12 7v5.2l3.2 2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" fill="none"/>',
+  seta: '<path d="M21 3 3 10.5l7.5 3L13.5 21 21 3Z" fill="currentColor"/>',
 };
 ---
 
-<section class="mx-auto max-w-[1521px] px-6 py-16 lg:px-[62px]">
-  <div class="mb-14 max-w-[900px]">
-    <span class="font-sans text-xl leading-5 font-semibold tracking-[2px] text-sand">
-      DIFERENCIAIS E INFRAESTRUTURA
-    </span>
-    <h2 class="mt-5 font-sans text-[35px] leading-[35px] font-medium tracking-[1.5px] text-steel">
-      UMA INFRAESTRUTURA CORPORATIVA COMPLETA PARA O SEU SUCESSO
-    </h2>
-    <p class="mt-6 font-sans text-xl leading-[30px] tracking-[0.5px] text-graytext">
-      Conte com diferenciais que garantem a produtividade e o bem-estar de todos. Nossos
-      espaços foram planejados para máxima flexibilidade e conforto para as empresas e
-      seus clientes.
-    </p>
-  </div>
+<section class="px-6 py-16 lg:px-[61px]">
+  <div class="mx-auto max-w-[1400px]">
+    <div class="mx-auto mb-12 max-w-[900px] text-center">
+      <span class="font-sans text-xl leading-5 font-semibold tracking-[2px] text-sand">
+        DIFERENCIAIS E INFRAESTRUTURA
+      </span>
+      <h2 class="mt-5 font-sans text-[35px] leading-[35px] font-medium tracking-[1.5px] text-steel">
+        UMA INFRAESTRUTURA CORPORATIVA COMPLETA PARA O SEU SUCESSO
+      </h2>
+      <p class="mt-6 font-sans text-xl leading-[30px] tracking-[0.5px] text-graytext">
+        Conte com diferenciais que garantem a produtividade e o bem-estar de todos. Nossos
+        espaços foram planejados para máxima flexibilidade e conforto para as empresas e
+        seus clientes.
+      </p>
+    </div>
 
-  <div class="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
-    {
-      items.map((item) => (
-        <div class="flex flex-col gap-5">
-          <span class="flex h-[60px] w-[60px] items-center justify-center rounded-full bg-mist text-slate">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" set:html={icons[item.icon]} />
-          </span>
-          <h3 class="font-sans text-2xl leading-[39px] font-semibold text-slate">{item.title}</h3>
-          <p class="font-sans text-base text-graytext">{item.desc}</p>
-        </div>
-      ))
-    }
+    <div class="grid gap-x-[30px] gap-y-[50px] lg:grid-cols-2">
+      {
+        items.map((item) => (
+          <div
+            class="grid grid-cols-1 sm:grid-cols-[343fr_312fr]"
+            data-reveal={item.anim}
+            data-reveal-delay="500"
+          >
+            <div class="flex min-h-[330px] flex-col items-center justify-center bg-white p-[30px] text-center">
+              <span class="flex h-[60px] w-[60px] items-center justify-center rounded-[7px] bg-mint-claro text-white">
+                <svg width="30" height="30" viewBox="0 0 24 24" aria-hidden="true" set:html={icones[item.icone]} />
+              </span>
+              <h3 class="mt-[15px] font-sans text-[26px] leading-[39px] font-semibold text-slate">
+                {item.titulo}
+              </h3>
+              <p class="mt-[13px] font-sans text-xl leading-[26px] font-light text-graytext">
+                {item.desc}
+              </p>
+            </div>
+
+            <img
+              src={item.foto}
+              alt=""
+              width="312"
+              height="330"
+              loading="lazy"
+              class="h-[200px] w-full object-cover sm:h-full sm:min-h-[330px]"
+            />
+          </div>
+        ))
+      }
+    </div>
   </div>
 </section>
