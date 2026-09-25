@@ -1,0 +1,31 @@
+---
+import icones from "../data/categorias-icones.json";
+---
+
+<section class="bg-white px-[30px] py-[45px]">
+  <ul
+    class="mx-auto grid max-w-[1461px] grid-cols-3 gap-x-2 gap-y-8 sm:grid-cols-4 md:grid-cols-6 lg:flex lg:justify-between lg:gap-0"
+  >
+    {
+      icones.map((item) => (
+        <li class="flex justify-center">
+          <a
+            href={`/empresas?categoria=${encodeURIComponent(item.filtro)}`}
+            class="group flex w-[90px] flex-col items-center gap-[10px] text-center"
+          >
+            <svg
+              viewBox={item.viewBox}
+              width="50"
+              height="50"
+              fill="currentColor"
+              aria-hidden="true"
+              class="h-[50px] w-[50px] text-sand-claro transition-transform duration-300 ease-out group-hover:scale-125 group-focus-visible:scale-125 motion-reduce:transition-none"
+              set:html={item.inner}
+            />
+            <span class="font-sans text-[13px] leading-[15px] text-steel">{item.label}</span>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</section>

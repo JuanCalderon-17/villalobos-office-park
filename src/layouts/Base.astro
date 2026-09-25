@@ -1,0 +1,88 @@
+---
+import "../styles/global.css";
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const {
+  title = "Villa Lobos Office Park",
+  description = "Polo de inovação e negócios: torres corporativas, casas de vila e unidades comerciais com infraestrutura completa.",
+} = Astro.props;
+---
+
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
+    />
+    <title>{title}</title>
+  </head>
+  <body class="bg-haze">
+    <slot />
+
+    <script>
+      const alvos = document.querySelectorAll<HTMLElement>("[data-reveal]");
+
+      if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+        alvos.forEach((el) => el.classList.add("revelado"));
+      } else {
+        const observador = new IntersectionObserver(
+          (entradas) => {
+            entradas.forEach((entrada) => {
+              if (!entrada.isIntersecting) return;
+              const el = entrada.target as HTMLElement;
+              el.style.setProperty("--reveal-delay", `${el.dataset.revealDelay || 0}ms`);
+              el.classList.add("revelado");
+              observador.unobserve(el);
+            });
+          },
+          { rootMargin: "0px 0px -12% 0px", threshold: 0.15 }
+        );
+
+        alvos.forEach((el) => observador.observe(el));
+      }
+
+      // Contador animado (o "3" da seção de eventos, como no original)
+      document.querySelectorAll<HTMLElement>("[data-contador]").forEach((el) => {
+        const destino = Number(el.dataset.contador || 0);
+        const duracao = Number(el.dataset.contadorDuracao || 2000);
+
+        const contar = () => {
+          if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+            el.textContent = String(destino);
+            return;
+          }
+          const inicio = performance.now();
+          const passo = (agora: number) => {
+            const progresso = Math.min((agora - inicio) / duracao, 1);
+            el.textContent = String(Math.round(destino * progresso));
+            if (progresso < 1) requestAnimationFrame(passo);
+          };
+          requestAnimationFrame(passo);
+        };
+
+        const obs = new IntersectionObserver(
+          (entradas) => {
+            entradas.forEach((e) => {
+              if (!e.isIntersecting) return;
+              contar();
+              obs.unobserve(e.target);
+            });
+          },
+          { threshold: 0.5 }
+        );
+        obs.observe(el);
+      });
+    </script>
+  </body>
+</html>

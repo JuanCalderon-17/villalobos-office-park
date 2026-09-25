@@ -1,0 +1,104 @@
+---
+import Base from "../layouts/Base.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import EmpresaCard from "../components/EmpresaCard.astro";
+import data from "../data/empresas.json";
+
+const { categorias, empresas } = data;
+---
+
+<Base
+  title="Empresas | Villa Lobos Office Park"
+  description={`Conheça as ${empresas.length} empresas instaladas no Villa Lobos Office Park: contato, localização e horário de funcionamento.`}
+>
+  <Header active="empresas" />
+
+  <main class="pt-[169px]">
+    <div class="mx-auto max-w-[1522px] px-6 lg:px-[100px]">
+      <h1 class="text-[24px] leading-[24px] font-medium text-steel">empresas</h1>
+    </div>
+
+    <div class="mx-auto max-w-[1522px] px-6 py-9 lg:px-[200px]">
+      <div class="mb-8 flex flex-wrap gap-2" role="group" aria-label="Filtrar por categoria">
+        <button
+          type="button"
+          data-filtro="todas"
+          aria-pressed="true"
+          class="filtro rounded-[8px] bg-mint px-4 py-2 text-[14px] leading-[18px] text-white"
+        >
+          Todas ({empresas.length})
+        </button>
+        {
+          categorias.map((cat) => (
+            <button
+              type="button"
+              data-filtro={cat}
+              aria-pressed="false"
+              class="filtro rounded-[8px] bg-white px-4 py-2 text-[14px] leading-[18px] text-carbon"
+            >
+              {cat}
+            </button>
+          ))
+        }
+      </div>
+
+      <p id="contador" class="mb-6 text-[14px] text-graytext" aria-live="polite">
+        Mostrando {empresas.length} empresas
+      </p>
+
+      <div id="grade" class="grid grid-cols-1 gap-[30px] sm:grid-cols-2 lg:grid-cols-3">
+        {empresas.map((empresa) => <EmpresaCard empresa={empresa} />)}
+      </div>
+    </div>
+  </main>
+
+  <Footer />
+</Base>
+
+<script>
+  const botoes = document.querySelectorAll<HTMLButtonElement>(".filtro");
+  const cards = document.querySelectorAll<HTMLElement>("#grade > article");
+  const contador = document.getElementById("contador");
+
+  const ativo = "bg-mint text-white";
+  const inativo = "bg-white text-carbon";
+
+  const aplicar = (botao: HTMLButtonElement) => {
+      const filtro = botao.dataset.filtro!;
+
+      botoes.forEach((b) => {
+        const on = b === botao;
+        b.setAttribute("aria-pressed", String(on));
+        b.classList.toggle("bg-mint", on);
+        b.classList.toggle("text-white", on);
+        b.classList.toggle("bg-white", !on);
+        b.classList.toggle("text-carbon", !on);
+      });
+
+      let visiveis = 0;
+      cards.forEach((card) => {
+        const cats = (card.dataset.categorias || "").split("|");
+        const mostrar = filtro === "todas" || cats.includes(filtro);
+        card.hidden = !mostrar;
+        if (mostrar) visiveis++;
+      });
+
+      if (contador) {
+        contador.textContent =
+          visiveis === 1 ? "Mostrando 1 empresa" : `Mostrando ${visiveis} empresas`;
+      }
+  };
+
+  botoes.forEach((botao) => botao.addEventListener("click", () => aplicar(botao)));
+
+  // Links vindos da Home (/empresas?categoria=Saúde) já abrem filtrados
+  const pedida = new URLSearchParams(location.search).get("categoria");
+  if (pedida) {
+    const alvo = [...botoes].find((b) => b.dataset.filtro === pedida);
+    if (alvo) {
+      aplicar(alvo);
+      alvo.scrollIntoView({ block: "center" });
+    }
+  }
+</script>

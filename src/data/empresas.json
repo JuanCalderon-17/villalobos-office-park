@@ -1,0 +1,1506 @@
+{
+  "categorias": [
+    "Advocacia",
+    "Agência de Marketing",
+    "Arquitetura e Design",
+    "Assessoria Financeira",
+    "Assistência Técnica",
+    "Automotivo",
+    "Consultoria",
+    "Engenharia",
+    "Estética",
+    "Fotografia",
+    "Gráfica",
+    "Imobilário",
+    "Logística e Comércio Exterior",
+    "Loja",
+    "Publicidade e Propaganda",
+    "Saúde",
+    "Saúde e Bem Estar",
+    "Tecnologia",
+    "Turismo"
+  ],
+  "empresas": [
+    {
+      "slug": "4mdg-governanca-de-dados-mestres",
+      "nome": "4MDG – Governança de Dados Mestres",
+      "categorias": [
+        "Consultoria",
+        "Tecnologia"
+      ],
+      "logo": "/img/empresas/4mdg-governanca-de-dados-mestres.webp",
+      "descricao": "A 4MDG é uma empresa especializada em Governança e Gestão de Dados Mestres (MDM), oferecendo tecnologia e serviços para centralização, saneamento, padronização, enriquecimento, validação e gestão de cadastros de materiais, produtos, clientes e fornecedores. Por meio de uma plataforma SaaS e de serviços especializados, apoiamos empresas na melhoria da qualidade dos dados, automação de processos, integração com ERPs e construção de uma governança de dados robusta, confiável e escalável.",
+      "localizacao": "Torre E",
+      "sala": "715",
+      "predio": "Torre E",
+      "telefone": "(11) 4113-2510",
+      "telefoneHref": "tel:1141132510",
+      "email": "atendimento@4mdg.com.br",
+      "site": "http://www.4mdg.com.br",
+      "horario": {
+        "abre": "09:00",
+        "fecha": "18:00"
+      }
+    },
+    {
+      "slug": "adriel-imoveis",
+      "nome": "Adriel imóveis",
+      "categorias": [
+        "Imobilário"
+      ],
+      "logo": "/img/empresas/adriel-imoveis.webp",
+      "descricao": "Funcionamos com horário agendado. Venda locação e administração de imóveis dentro do villa lobos office Park",
+      "localizacao": "4° Andar, Torre E",
+      "sala": "412",
+      "predio": "Torre E",
+      "telefone": "(11) 98371-2041",
+      "telefoneHref": "tel:11983712041",
+      "email": "contato@adrielimoveis.com.br",
+      "site": "http://www.adrielimoveis.com.br",
+      "horario": null
+    },
+    {
+      "slug": "af-odontologia-dr-alex-ferreira",
+      "nome": "AF Odontologia – Dr. Alex Ferreira",
+      "categorias": [
+        "Saúde"
+      ],
+      "logo": "/img/empresas/af-odontologia-dr-alex-ferreira.webp",
+      "descricao": "Funcionamos de segunda à sábado. Clínica odontológica, com laboratório próprio e equipe multidisciplinar. Conseguindo assim atender de uma forma rápida e precisa. Nosso espaço contém os equipamentos mais modernos do mercado. Scanner intra oral, laser de alta potência e muito mais! Temos um dos melhores invisalign Doctor de São Paulo, ele está entre os Top Doctors há anos em SP. Atendemos todas as idades e especialidades.",
+      "localizacao": "4° Andar, Torre E",
+      "sala": "404",
+      "predio": "Torre E",
+      "telefone": "(11) 97551-8078",
+      "telefoneHref": "tel:11975518078",
+      "email": "",
+      "site": "https://www.instagram.com/dr.alexferreiras/",
+      "horario": {
+        "abre": "08:00",
+        "fecha": "18:00"
+      }
+    },
+    {
+      "slug": "agaxtur",
+      "nome": "Agaxtur",
+      "categorias": [
+        "Turismo"
+      ],
+      "logo": "/img/empresas/agaxtur.webp",
+      "descricao": "Funcionamos de Segunda a Sexta das 10h às 19h e aos sábados das 10h às 14h apenas com agendamento prévio. Viaje com quem entende do assunto. A Agaxtur oferece pacotes completos, cruzeiros, passagens e hospedagens no Brasil e no mundo, com opções personalizadas e condições especiais. Há mais de 70 anos, transformando viagens em experiências inesquecíveis, com segurança e tranquilidade do início ao fim.",
+      "localizacao": "",
+      "sala": "5",
+      "predio": "Vila",
+      "telefone": "(11) 3022-7082",
+      "telefoneHref": "tel:1130227082",
+      "email": "sp.villalobos@agaxtur.com.br",
+      "site": "https://www.agaxtur.com.br/",
+      "horario": {
+        "abre": "10:00",
+        "fecha": "19:00"
+      }
+    },
+    {
+      "slug": "agencia-estalo",
+      "nome": "Agência Estalo",
+      "categorias": [
+        "Agência de Marketing"
+      ],
+      "logo": "/img/empresas/agencia-estalo.webp",
+      "descricao": "Funcionamos presencial de Terça a Quinta e em Home Office na Segunda e Sexta. Desde 2007, somos uma agência de brand experience com sedes em São Paulo e Salvador, que conecta marcas e consumidores por meio da melhor experiência: interativa, que reverbera, gera engajamento, conversão, e entrega resultados. Com criatividade, inovação, paixão e muita garra, criamos centenas de projetos para grandes marcas, tanto no Brasil quanto no exterior, sendo assim uma das agências mais premiadas das regiões Norte/Nordeste.",
+      "localizacao": "9° Andar, Torre A",
+      "sala": "902",
+      "predio": "Torre A",
+      "telefone": "",
+      "telefoneHref": "",
+      "email": "atendimento@estalobr.com.br",
+      "site": "http://estalobr.com.br",
+      "horario": {
+        "abre": "10:00",
+        "fecha": "19:00"
+      }
+    },
+    {
+      "slug": "aurea-harmonie-clinica-de-estetica-avancada",
+      "nome": "Áurea Harmonie – Clínica de Estética Avançada",
+      "categorias": [
+        "Estética"
+      ],
+      "logo": "/img/empresas/aurea-harmonie-clinica-de-estetica-avancada.webp",
+      "descricao": "Funcionamos de segunda à sexta-feira das 09:00 às 19:00 e sábado das 09:00 às 12:00 Clínica de estética avançada especializada em procedimentos faciais e corporais, invasivos e não invasivos, com foco em segurança, naturalidade e bem-estar.",
+      "localizacao": "Torre D",
+      "sala": "813",
+      "predio": "Torre D",
+      "telefone": "(11) 97147-2026",
+      "telefoneHref": "tel:11971472026",
+      "email": "clinicaaureaharmonie@gmail.com",
+      "site": "http://Instagram.com/aureaharmonie.estetica",
+      "horario": {
+        "abre": "09:00",
+        "fecha": "19:00"
+      }
+    },
+    {
+      "slug": "b8-people-performance-ltda",
+      "nome": "B8 PEOPLE & PERFORMANCE LTDA",
+      "categorias": [
+        "Consultoria"
+      ],
+      "logo": "/img/empresas/b8-people-performance-ltda.webp",
+      "descricao": "Funcionamos de segunda à sexta-feira Somos uma empresa de educação corporativa que transforma times em vantagem competitiva. Criamos experiências de aprendizagem presenciais e online que são vivas, provocativas e feitas sob medida, pensadas para gerar ação, impacto e evolução real para organizações que precisam de líderes e times que sustentam o crescimento, traduzem a estratégia em prática e levam a organização para o próximo nível.",
+      "localizacao": "10° Andar, Torre B",
+      "sala": "1010",
+      "predio": "Torre B",
+      "telefone": "114302597911978638173",
+      "telefoneHref": "tel:114302597911978638173",
+      "email": "contato@building8.com.br",
+      "site": "http://www.building8.com.br",
+      "horario": {
+        "abre": "09:00",
+        "fecha": "18:00"
+      }
+    },
+    {
+      "slug": "bpy-global",
+      "nome": "BPY Global",
+      "categorias": [
+        "Assessoria Financeira"
+      ],
+      "logo": "/img/empresas/bpy-global.webp",
+      "descricao": "Funcionamos de segunda à sexta-feira das 08:00 às 18:00 SALAS: 305 e 306 BPY Global é a base de suporte financeiro para operações de câmbio, investimentos, distribuição de títulos e valores mobiliários e emissão de moeda eletrônica. Internet Banking com serviços de conta digital, cartões corporativos em reais e moeda estrangeira e transferências internacionais.",
+      "localizacao": "Torre A",
+      "sala": "305",
+      "predio": "Torre A",
+      "telefone": "(11) 99322-6090",
+      "telefoneHref": "tel:11993226090",
+      "email": "comercial@bpy.global",
+      "site": "https://bpy.global/",
+      "horario": {
+        "abre": "08:00",
+        "fecha": "18:00"
+      }
+    },
+    {
+      "slug": "bueno-de-camargo-cons-adm-partic-ltda",
+      "nome": "BUENO DE CAMARGO-Cons.Adm.Partic.Ltda",
+      "categorias": [
+        "Consultoria"
+      ],
+      "logo": "/img/empresas/bueno-de-camargo-cons-adm-partic-ltda.webp",
+      "descricao": "",
+      "localizacao": "9° Andar, Torre B",
+      "sala": "909",
+      "predio": "Torre B",
+      "telefone": "993202894",
+      "telefoneHref": "tel:993202894",
+      "email": "buenodecamargo@terra.com.br",
+      "site": "",
+      "horario": null
+    },
+    {
+      "slug": "caio-marcelino-arquitetura-e-interiores",
+      "nome": "Caio Marcelino – Arquitetura e Interiores",
+      "categorias": [
+        "Arquitetura e Design"
+      ],
+      "logo": "/img/empresas/caio-marcelino-arquitetura-e-interiores.webp",
+      "descricao": "Funcionamos de segunda à sexta. Projetos de interiores e arquitetônicos.",
+      "localizacao": "4° Andar, Torre E",
+      "sala": "414",
+      "predio": "Torre E",
+      "telefone": "(11) 91210-8088",
+      "telefoneHref": "tel:11912108088",
+      "email": "caiomarcelino.arq@gmail.com",
+      "site": "https://www.instagram.com/caiomarcelino.arq?igsh=cjdydDg0aDI5MGJq",
+      "horario": {
+        "abre": "09:00",
+        "fecha": "18:00"
+      }
+    },
+    {
+      "slug": "capriccio-motors",
+      "nome": "Capriccio Motors",
+      "categorias": [
+        "Automotivo"
+      ],
+      "logo": "/img/empresas/capriccio-motors.webp",
+      "descricao": "Funcionamos aos sábados sob agendamento. Compra e venda de veículos Nacionais, Importados e Blindados",
+      "localizacao": "9° Andar, Torre E",
+      "sala": "901",
+      "predio": "Torre E",
+      "telefone": "011982181965",
+      "telefoneHref": "tel:011982181965",
+      "email": "marcelo@capricciomotors.com.br",
+      "site": "http://www.capricciomotors.com.br/",
+      "horario": {
+        "abre": "09:00",
+        "fecha": "18:00"
+      }
+    },
+    {
+      "slug": "carambola-fotografia",
+      "nome": "Carambola Fotografia",
+      "categorias": [
+        "Fotografia"
+      ],
+      "logo": "/img/empresas/carambola-fotografia.webp",
+      "descricao": "Atendimento Online via WhatsApp: Segunda a Sábado das 9h às 19h Atendimento presencial: Somente com hora marcada. Especializada em Fotografia de Família: Fotografamos Ensaios de Gestante, Newborn, Família, Smash the cake, Aniversário Infantil e Batizado",
+      "localizacao": "6° Andar, Torre D",
+      "sala": "613",
+      "predio": "Torre D",
+      "telefone": "(11) 98666-2008",
+      "telefoneHref": "tel:11986662008",
+      "email": "livia@carambolafotografia.com.br",
+      "site": "",
+      "horario": {
+        "abre": "09:00",
+        "fecha": "19:00"
+      }
+    },
+    {
+      "slug": "cars-broker",
+      "nome": "Cars Broker",
+      "categorias": [
+        "Automotivo"
+      ],
+      "logo": "/img/empresas/cars-broker.webp",
+      "descricao": "Funcionamos de segunda à sexta e aos sábados por meio de agendamento (09h às 13h). Somos uma agência especializada na compra e venda de veículos usados, com forte atuação no mercado de veículos blindados. Oferecemos serviços de intermediação, consignação, financiamento, refinanciamento, despachante em geral, estética e mecânica especializada. Contamos com um amplo estoque de veículos blindados e não blindados. Aceitamos seu veículo usado como parte do pagamento, carta de crédito contemplada e oferecemos parcelamento no cartão de crédito em até 12 vezes. Veículos com garantia e procedência!",
+      "localizacao": "",
+      "sala": "8",
+      "predio": "Vila",
+      "telefone": "(11) 91343-0204",
+      "telefoneHref": "tel:11913430204",
+      "email": "carsbrokerofficial@gmail.com",
+      "site": "http://www.carsbroker.com.br",
+      "horario": {
+        "abre": "09:00",
+        "fecha": "18:00"
+      }
+    },
+    {
+      "slug": "casulo-comunicacao",
+      "nome": "Casulo Comunicação",
+      "categorias": [
+        "Agência de Marketing"
+      ],
+      "logo": "/img/empresas/casulo-comunicacao.webp",
+      "descricao": "Funcionamos de segunda à sexta-feira das 09:00 às 18:00 Por que algumas experiências se apagam rápido e outras ficam na memória para sempre? Não é acaso: é construção. E não existe receita pronta. Na Casulo, acreditamos que cada projeto é único. Cada cliente traz uma história. Cada público, uma forma de se conectar. É assim que transformamos ideias em experiências vivas: não apenas eventos ou ativações, mas projetos que criam memórias, aproximam pessoas e fortalecem relações. Porque no fim, não é sobre o palco, a luz, o press kit, o treinamento ou a ação isolada. É sobre a conexão que permanece. Na Casulo, estratégia anda de mãos dadas com emoção — e é isso que dá alma a cada projeto.",
+      "localizacao": "Térreo, Torre E",
+      "sala": "8",
+      "predio": "Torre E",
+      "telefone": "(11) 3641-1070",
+      "telefoneHref": "tel:1136411070",
+      "email": "contato@casulocomunicacao.com.br",
+      "site": "http://casulocomunicacao.com.br",
+      "horario": {
+        "abre": "09:00",
+        "fecha": "18:00"
+      }
+    },
+    {
+      "slug": "clinica-eqilibra-medicina-chinesa-e-saude-integrativa",
+      "nome": "Clínica Eqilibra – Medicina Chinesa e Saúde Integrativa",
+      "categorias": [
+        "Saúde e Bem Estar"
+      ],
+      "logo": "/img/empresas/clinica-eqilibra-medicina-chinesa-e-saude-integrativa.webp",
+      "descricao": "Funcionamos de Segunda à sexta-feira Focada no bem-estar e na qualidade de vida para toda a família, a Clínica Eqilibra oferece tratamentos de Acupuntura e práticas da Medicina Tradicional Chinesa para diversos momentos e desafios de saúde. O atendimento é pautado na individualidade de cada paciente, utilizando agulhas ou recursos auxiliares conforme a necessidade específica de cada caso, sempre com um olhar integrativo e humanizado.",
+      "localizacao": "2° Andar, Torre E",
+      "sala": "215",
+      "predio": "Torre E",
+      "telefone": "(11) 97376-2448",
+      "telefoneHref": "tel:11973762448",
+      "email": "Drisr2302@gmail.com",
+      "site": "http://instagram.com/didi.saude_integrativa",
+      "horario": {
+        "abre": "08:00",
+        "fecha": "18:00"
+      }
+    },
+    {
+      "slug": "clinica-iara-sato",
+      "nome": "Clínica Iara Sato",
+      "categorias": [
+        "Saúde"
+      ],
+      "logo": "/img/empresas/clinica-iara-sato.webp",
+      "descricao": "Funcionamos de segunda à sexta. Sábados consultar disponibilidade Saúde, estética e bem estar – Disponibilizamos mais de 80 procedimentos (massagens, protocolos faciais e corporais, botox, preenchimentos em diversas regiões, Bioestimuladores, nutricionista e outros)",
+      "localizacao": "",
+      "sala": "78",
+      "predio": "Vila A",
+      "telefone": "(11) 98109-5733",
+      "telefoneHref": "tel:11981095733",
+      "email": "recepcao.golash@gmail.com",
+      "site": "https://www.instagram.com/clinicaiarasato",
+      "horario": {
+        "abre": "07:00",
+        "fecha": "19:00"
+      }
+    },
+    {
+      "slug": "clinica-kairos",
+      "nome": "CLÍNICA KAIRÓS",
+      "categorias": [
+        "Saúde"
+      ],
+      "logo": "/img/empresas/clinica-kairos.webp",
+      "descricao": "HORÁRIOS: SEG :07:30 ÁS 12:00 QUI : 07:30 ÀS 17:00 SEX: 17:00 ÀS 19:00 SÁB : 08:00 ÀS 18:00 CLÍNICA DE MEDICINA E PSICOLOGIA SERVIÇOS : CLÍNICA CREDENCIADA AO DETRAN (EXAMES MÉDICO E PSICOLÓGICO PARA CNH) CLÍNICA CREDENCIADA A POLÍCIA FEDERAL ( AVALIAÇÃO PSICOLÓGICA PARA PORTE DE ARMAS) CLÍNICA CREDENCIADA AO IMESC (PERÍCIA PARA LAUDO DE IPVA PARA PCD) POSTO DE COLETA PARA EXAME TOXICOLÓGICO",
+      "localizacao": "9° Andar, Torre D",
+      "sala": "914",
+      "predio": "Torre D",
+      "telefone": "(11) 91860-1711",
+      "telefoneHref": "tel:11918601711",
+      "email": "clinicakairos2026@gmail.com",
+      "site": "",
+      "horario": null
+    },
+    {
+      "slug": "clinica-ludimila-fonseca-fonoaudiologia",
+      "nome": "Clínica Ludimila Fonseca Fonoaudiologia",
+      "categorias": [
+        "Saúde"
+      ],
+      "logo": "/img/empresas/clinica-ludimila-fonseca-fonoaudiologia.webp",
+      "descricao": "Funcionamos de segunda à sexta. Atendimento fonoaudiológico desde a amamentação até a fala com leveza, acolhimento e ciência.",
+      "localizacao": "Torre E",
+      "sala": "415",
+      "predio": "Torre E",
+      "telefone": "(11) 97214-3606",
+      "telefoneHref": "tel:11972143606",
+      "email": "clinicaludimilafonseca.fono@gmail.com",
+      "site": "https://www.instagram.com/ludimilafonseca.fono/",
+      "horario": null
+    },
+    {
+      "slug": "clinica-miotto",
+      "nome": "CLÍNICA MIOTTO",
+      "categorias": [
+        "Saúde"
+      ],
+      "logo": "/img/empresas/clinica-miotto.webp",
+      "descricao": "Funcionamos de segunda à sexta-feira. SALAS: 407/ 406 e 405 Prestação de serviços médico nas áreas de clínica médica, nutrologia, cardiologia, gastroenterologia clínica, cirurgia do aparelho digestivo e coloproctologia, cirurgia videolaparoscopica e cirurgia robótica. Atendimentos por convênio e particulares. Exames de ecocardiografia, eletrocardiograma, teste respiratório do hidrogênio expirado para diagnóstico de sibo e intolerância a lactose / frutose bioimpedanciometria.",
+      "localizacao": "4° Andar, Torre E",
+      "sala": "405",
+      "predio": "Torre E",
+      "telefone": "11308530853081816111956366305",
+      "telefoneHref": "tel:11308530853081816111956366305",
+      "email": "ADMCLINICAMIOTTO@GMAIL.COM",
+      "site": "http://WWW.CLINICAMIOTTO.COM.BR",
+      "horario": {
+        "abre": "08:00",
+        "fecha": "18:00"
+      }
+    },
+    {
+      "slug": "clinica-moreira-odontologia-integrada-dra-priscila-moreira",
+      "nome": "Clinica Moreira Odontologia Integrada – Dra Priscila Moreira",
+      "categorias": [
+        "Saúde"
+      ],
+      "logo": "/img/empresas/clinica-moreira-odontologia-integrada-dra-priscila-moreira.webp",
+      "descricao": "Funcionamos de segunda à sexta-feira. A Clinica Moreira Odontologia Integrada é uma clínica odontológica com foco em atendimento humanizado e odontologia moderna. Atuamos nas áreas de ortodontia, tratamento de disfunção temporomandibular (DTM), dor orofacial, bruxismo, clínica geral e estética do sorriso. Nosso propósito é cuidar da saúde bucal de forma integral, acolhendo cada paciente de maneira individualizada, com tecnologia, ética e excelência profissional.",
+      "localizacao": "8° Andar, Torre D",
+      "sala": "801",
+      "predio": "Torre D",
+      "telefone": "+5511986776465",
+      "telefoneHref": "tel:+5511986776465",
+      "email": "clinicamoreira75@gmail.com",
+      "site": "",
+      "horario": {
+        "abre": "08:00",
+        "fecha": "18:00"
+      }
+    },
+    {
+      "slug": "clinica-neto",
+      "nome": "CLÍNICA NETO",
+      "categorias": [
+        "Saúde"
+      ],
+      "logo": "/img/empresas/clinica-neto.webp",
+      "descricao": "Funcionamos de segunda à sexta-feira. Atendimento médico especializado.",
+      "localizacao": "7° Andar, Torre E",
+      "sala": "704",
+      "predio": "Torre E",
+      "telefone": "55354545",
+      "telefoneHref": "tel:55354545",
+      "email": "neto-ortopedia@live.com",
+      "site": "",
+      "horario": {
+        "abre": "08:00",
+        "fecha": "20:00"
+      }
+    },
+    {
+      "slug": "clinica-oftalmologica-villa-lobos",
+      "nome": "Clinica Oftalmológica Villa Lobos",
+      "categorias": [
+        "Saúde"
+      ],
+      "logo": "/img/empresas/clinica-oftalmologica-villa-lobos.webp",
+      "descricao": "Funcionamos de segunda à sexta-feira. Salas: 201 e 202 Clínica Oftalmológica. Realização de consulta, cirurgias e exames.",
+      "localizacao": "2° Andar, Torre B",
+      "sala": "201",
+      "predio": "Torre B",
+      "telefone": "114302599211999591515",
+      "telefoneHref": "tel:114302599211999591515",
+      "email": "clinicaoftalmologicaoeste@gmail.com",
+      "site": "https://oftalmologiavillalobos.com.br",
+      "horario": {
+        "abre": "09:00",
+        "fecha": "17:00"
+      }
+    },
+    {
+      "slug": "dra-ana-lucia-borborema-dra-denise-amaral-gurgel",
+      "nome": "Dra. Ana Lucia Borborema | Dra. Denise Amaral Gurgel",
+      "categorias": [
+        "Saúde"
+      ],
+      "logo": "/img/empresas/dra-ana-lucia-borborema-dra-denise-amaral-gurgel.webp",
+      "descricao": "Funcionamento de segunda à sexta. Consultório Odontológico Com especialistas parceiros em: Endododontia Pediatria Buco maxilo Implantodontista Periodontista Dra. Ana Lucia especialista em Implante, a prótese e Dentistica Dra. Denise especialista em Ortodontia",
+      "localizacao": "7° Andar, Torre D",
+      "sala": "705",
+      "predio": "Torre D",
+      "telefone": "(11) 99940-2322",
+      "telefoneHref": "tel:11999402322",
+      "email": "odontovillalobos@gmail.com",
+      "site": "",
+      "horario": {
+        "abre": "08:00",
+        "fecha": "17:00"
+      }
+    },
+    {
+      "slug": "e2-studio",
+      "nome": "E2 Studio",
+      "categorias": [
+        "Publicidade e Propaganda"
+      ],
+      "logo": "/img/empresas/e2-studio.webp",
+      "descricao": "Funcionamos de segunda à sexta-feira. Somos uma produtora audiovisual focada em publicidade, atuando da ideia à entrega final. Trabalhamos com captação, inteligência artificial e pós-produção, criando filmes, conteúdos digitais e campanhas para marcas que buscam impacto, agilidade e consistência visual. Unimos criatividade, tecnologia e olhar publicitário para desenvolver soluções audiovisuais eficientes, escaláveis e alinhadas aos objetivos de cada projeto.",
+      "localizacao": "",
+      "sala": "19",
+      "predio": "Vila B",
+      "telefone": "+5511943775698",
+      "telefoneHref": "tel:+5511943775698",
+      "email": "e2@e2studio.com.br",
+      "site": "https://www.e2studio.com.br/",
+      "horario": {
+        "abre": "09:00",
+        "fecha": "19:00"
+      }
+    },
+    {
+      "slug": "ekantika-integradores-organizacionais-ltda",
+      "nome": "Ekantika Integradores Organizacionais Ltda",
+      "categorias": [
+        "Consultoria"
+      ],
+      "logo": "/img/empresas/ekantika-integradores-organizacionais-ltda.webp",
+      "descricao": "Funcionamos de segunda à sexta. Consultoria",
+      "localizacao": "1° Andar, Torre A",
+      "sala": "201",
+      "predio": "Torre A",
+      "telefone": "(11) 3062-5920",
+      "telefoneHref": "tel:1130625920",
+      "email": "contato@ekantika.com.br",
+      "site": "https://ekantika.com.br/",
+      "horario": {
+        "abre": "09:00",
+        "fecha": "18:00"
+      }
+    },
+    {
+      "slug": "escritorio-de-advocacia-carlos-escobar",
+      "nome": "Escritório de Advocacia Carlos Escobar",
+      "categorias": [
+        "Advocacia"
+      ],
+      "logo": "/img/empresas/escritorio-de-advocacia-carlos-escobar.webp",
+      "descricao": "Funcionamos de segunda à sexta. Escritório de Advocacia com atuação na área Civil, com ênfase em Direito Imobiliário, Sociedade e do Consumidor. Emails para contato: · carlos@carlosescobar.com.br · renata@carlosescobar.com.br · jaiara@carlosescobar.com.br",
+      "localizacao": "Térreo, Torre D",
+      "sala": "9",
+      "predio": "Torre D",
+      "telefone": "113831696911991645055",
+      "telefoneHref": "tel:113831696911991645055",
+      "email": "carlos@carlosescobar.com.br",
+      "site": "https://www.carlosescobar.com.br",
+      "horario": {
+        "abre": "10:00",
+        "fecha": "19:00"
+      }
+    },
+    {
+      "slug": "essera-fisioterapia-e-osteopatia-pediatrica",
+      "nome": "ESSERA – FISIOTERAPIA E OSTEOPATIA PEDIÁTRICA",
+      "categorias": [
+        "Saúde e Bem Estar"
+      ],
+      "logo": "/img/empresas/essera-fisioterapia-e-osteopatia-pediatrica.webp",
+      "descricao": "A Clínica Essera é referência em fisioterapia e osteopatia pediátrica, com atuação voltada ao cuidado individualizado e assertivo de bebês e crianças. Unimos acolhimento, raciocínio clínico e excelência técnica para oferecer atendimentos de alta qualidade, tanto em consultório quanto no ambiente domiciliar. Nosso compromisso é acompanhar cada criança de forma personalizada, contribuindo para seu desenvolvimento, funcionalidade e bem-estar, sempre na finalidade de evitar problemas no futuro.",
+      "localizacao": "",
+      "sala": "",
+      "predio": "",
+      "telefone": "(11) 95070-2345",
+      "telefoneHref": "tel:11950702345",
+      "email": "clinicaessera@gmail.com",
+      "site": "http://clinicaessera.com.br",
+      "horario": null
+    },
+    {
+      "slug": "fabiano-quattrone-advocacia",
+      "nome": "Fabiano Quattrone Advocacia",
+      "categorias": [
+        "Advocacia"
+      ],
+      "logo": "/img/empresas/fabiano-quattrone-advocacia.webp",
+      "descricao": "Escritório de advocacia com atuação nas áreas cível e trabalhista.",
+      "localizacao": "5° Andar, Torre E",
+      "sala": "515",
+      "predio": "Torre E",
+      "telefone": "(11) 99654-2483",
+      "telefoneHref": "tel:11996542483",
+      "email": "fabiano@fqadv.com.br",
+      "site": "",
+      "horario": {
+        "abre": "09:00",
+        "fecha": "18:00"
+      }
+    },
+    {
+      "slug": "foccus-clinica-integrada",
+      "nome": "Foccus Clínica Integrada",
+      "categorias": [
+        "Saúde"
+      ],
+      "logo": "/img/empresas/foccus-clinica-integrada.webp",
+      "descricao": "Funcionamos de Segunda à sexta-feira das 9h às 18h e no sábado das 9h às 13h. Somos uma clínica odontológica e de estética facial. Atendemos todas as especialidades de odontologia e harmonização orofacial. Unimos o melhor da odontologia e da estética em um só lugar, para te entregar um atendimento completo e humanizado do início ao fim.",
+      "localizacao": "3° Andar, Torre C",
+      "sala": "308",
+      "predio": "Torre C",
+      "telefone": "(11) 93031-1775",
+      "telefoneHref": "tel:11930311775",
+      "email": "foccusclinica.odonto@gmail.com",
+      "site": "http://foccusclinica.com.br",
+      "horario": {
+        "abre": "09:00",
+        "fecha": "18:00"
+      }
+    },
+    {
+      "slug": "front-point",
+      "nome": "Front Point",
+      "categorias": [
+        "Agência de Marketing"
+      ],
+      "logo": "/img/empresas/front-point.webp",
+      "descricao": "Funcionamos de segundas à quintas-feiras das 08h00 às 18h30 e Sextas-feiras das 08h00 às 17h00. O grande diferencial da Front Point é que transformamos os algoritmos do LinkedIn em poderosas ferramentas para impulsionar a sua marca pessoal. Com a expertise digital, fazemos com que o seu perfil se destaque nas buscas, atraindo mais visualizações e conexões de valores, atraindo às pessoas certas para a sua carreira ou negócio. Fortalecendo a sua presença online, posicionando como uma autoridade no seu setor, sendo assim, abrindo portas para oportunidades valiosas e parcerias estratégicas.",
+      "localizacao": "",
+      "sala": "",
+      "predio": "Casa 18",
+      "telefone": "+5511944984777",
+      "telefoneHref": "tel:+5511944984777",
+      "email": "lucca.piovesan@frontpoint.com.br",
+      "site": "http://www.frontpoint.com.br/sua-carreira/",
+      "horario": {
+        "abre": "08:00",
+        "fecha": "17:00"
+      }
+    },
+    {
+      "slug": "grafica-digital-graphics-print-solutions-ltda",
+      "nome": "Gráfica Digital Graphics Print Solutions Ltda",
+      "categorias": [
+        "Gráfica"
+      ],
+      "logo": "/img/empresas/grafica-digital-graphics-print-solutions-ltda.webp",
+      "descricao": "Funcionamos de segunda à sexta. Serviços Gráficos em geral",
+      "localizacao": "Térreo, Torre D",
+      "sala": "03",
+      "predio": "Torre D",
+      "telefone": "114301257711990156335",
+      "telefoneHref": "tel:114301257711990156335",
+      "email": "comercial@digitalgraphics.com.br",
+      "site": "http://www.digitalgraphics.com.br/",
+      "horario": {
+        "abre": "09:00",
+        "fecha": "18:00"
+      }
+    },
+    {
+      "slug": "grupo-ibes",
+      "nome": "Grupo IBES",
+      "categorias": [
+        "Consultoria"
+      ],
+      "logo": "/img/empresas/grupo-ibes.webp",
+      "descricao": "Funcionamos de segunda à quinta das 08:00 às 18:00 | Sexta das 08:00 às 17:00. Salas 312/313/314 Somos a maior Instituição Acreditadora (IAC) em Saúde da América Latina, com atuação no Brasil, Chile e Uruguai, sendo referência também em Soluções / Projetos de Acompanhamento Educacional, Ensino e Capacitação. Através da credibilidade, inovação e conhecimento técnico agregado. Somos especialistas em Gerar Valor e prover resultados efetivos para profissionais e organizações, com os mais altos níveis de reconhecimento, sendo a única Acreditadora Nacional a conquistar a tripla homologação na ANS e a tripla Acreditação da ISQua (Organization / Surveyor Training / Standards), reforçando nossa excelência. Adicionalmente, somos homologados pela ONA – Organização Nacional de Acreditação, pela ACSA International (Acreditação Europeia) e pela CHKS (Acreditação Britânica), bem como Certificados pela ISO 9001:2015.",
+      "localizacao": "Torre D",
+      "sala": "312",
+      "predio": "Torre D",
+      "telefone": "(11) 3675-5180",
+      "telefoneHref": "tel:1136755180",
+      "email": "atendimento@ibes.med.br",
+      "site": "http://www.grupoibes.com.br",
+      "horario": {
+        "abre": "08:00",
+        "fecha": "17:00"
+      }
+    },
+    {
+      "slug": "grupo-sgs-auditoria-contabil-e-consultoria-empresarial-rh-2",
+      "nome": "Grupo SGS Auditoria Contábil e Consultoria Empresarial & RH",
+      "categorias": [
+        "Consultoria"
+      ],
+      "logo": "/img/empresas/grupo-sgs-auditoria-contabil-e-consultoria-empresarial-rh-2.webp",
+      "descricao": "Funcionamos de segunda à sexta-feira. Fundado em 1998, o Grupo SGS construiu uma trajetória marcada pela dedicação, evolução contínua e compromisso com a excelência. Com atuação pautada na confiança e na parceria com seus clientes, o Grupo oferece soluções estratégicas que fortalecem a gestão e impulsionam o crescimento sustentável dos negócios. Auditoria Contábil O Grupo SGS presta serviços de auditoria contábil voltados à confiabilidade das demonstrações financeiras, à transparência das informações e ao apoio à tomada de decisões estratégicas, contribuindo para a segurança e a solidez das organizações. Consultoria Empresarial e de Recursos Humanos Por meio da consultoria empresarial e de Recursos Humanos, o Grupo SGS desenvolve estratégias que agregam valor, aprimoram a gestão e fortalecem o posicionamento das empresas, promovendo competitividade e resultados consistentes. Contato: comunicacao@sgsauditores.com.br e comunicacao@sgsconsultores.com.br",
+      "localizacao": "6° Andar, Torre D",
+      "sala": "608",
+      "predio": "Torre D",
+      "telefone": "(11) 94595-2780",
+      "telefoneHref": "tel:11945952780",
+      "email": "comunicacao@sgsauditores.com.br",
+      "site": "https://sgsauditores.com.br/",
+      "horario": {
+        "abre": "08:30",
+        "fecha": "17:30"
+      }
+    },
+    {
+      "slug": "hottec-tecnologia-preditiva",
+      "nome": "Hottec Tecnologia Preditiva",
+      "categorias": [
+        "Tecnologia"
+      ],
+      "logo": "/img/empresas/hottec-tecnologia-preditiva.webp",
+      "descricao": "Funcionamos de segunda à sexta. Somos especializados no fornecimento e fabricação de equipamentos, para Inspeções Elétricas Industriais, Manutenção Preditiva, Confiabilidade e Utilidades. Nosso portfólio reúne soluções tecnológicas avançadas, como Termografia, Inspeção Acústica por Ultrassom Airborne e Structureborne, Imageamento UV para efeito Corona, Câmeras Acústicas Industriais, Análise de Vibração on-line e off-line, Endoscopia Industrial, entre outras, além da prestação de serviços técnicos para Inspeções Elétricas Industriais. Atuamos desenvolvendo soluções personalizadas que vão além da simples venda de equipamentos, mas com foco direto nos resultados, na confiabilidade e na disponibilidade dos ativos de nossos clientes.",
+      "localizacao": "Térreo, Torre E",
+      "sala": "13",
+      "predio": "Torre E",
+      "telefone": "1137190845113765120911980798888",
+      "telefoneHref": "tel:1137190845113765120911980798888",
+      "email": "hottec@hottec.com.br",
+      "site": "http://www.hottec.com.br/",
+      "horario": {
+        "abre": "08:30",
+        "fecha": "18:00"
+      }
+    },
+    {
+      "slug": "interbrax-assessoria-de-importacao",
+      "nome": "Interbrax – Assessoria de Importação",
+      "categorias": [
+        "Logística e Comércio Exterior"
+      ],
+      "logo": "/img/empresas/interbrax-assessoria-de-importacao.webp",
+      "descricao": "Funcionamos de segunda à sexta. A Interbrax, desde 2001, é líder em assessoria e aceleração de importação com escritório na China.",
+      "localizacao": "1° Andar, Torre D",
+      "sala": "102",
+      "predio": "Torre D",
+      "telefone": "(11) 3833-0733",
+      "telefoneHref": "tel:1138330733",
+      "email": "interbrax@interbrax.com",
+      "site": "http://www.interbrax.com/",
+      "horario": {
+        "abre": "08:00",
+        "fecha": "18:00"
+      }
+    },
+    {
+      "slug": "kea-capital-markets",
+      "nome": "KEA Capital Markets",
+      "categorias": [
+        "Assessoria Financeira"
+      ],
+      "logo": "/img/empresas/kea-capital-markets.webp",
+      "descricao": "Funcionamos de segunda à sexta-feira. A Kea Capital Markets é uma empresa de serviços financeiros dedicada a oferecer soluções inovadoras no mercado de capitais. Nossa equipe reúne profissionais experientes com vasto conhecimento no setor financeiro e em mercados de capitais.",
+      "localizacao": "",
+      "sala": "33",
+      "predio": "Vila B",
+      "telefone": "(11) 99464-0318",
+      "telefoneHref": "tel:11994640318",
+      "email": "marcos@kaecapital.com.br",
+      "site": "https://www.keacapital.net/about",
+      "horario": {
+        "abre": "09:00",
+        "fecha": "18:00"
+      }
+    },
+    {
+      "slug": "klao-engenharia-s-a",
+      "nome": "Klao Engenharia S.A",
+      "categorias": [
+        "Engenharia"
+      ],
+      "logo": "/img/empresas/klao-engenharia-s-a.webp",
+      "descricao": "Funcionamos de segunda à sexta. Às sextas-feiras fechamos às 17h. Contato administrativo: administrativo.sp@klaoengenharia.com.br • Obras de urbanização – ruas, praças e calçadas • Incorporação de empreendimentos imobiliários • Construção de edifícios • Construção de rodovias e ferrovias • Construção de obras de arte especiais • Construção de barragens e represas para geração de energia elétrica • Construção de estações e redes de distribuição de energia elétrica • Manutenção de redes de distribuição de energia elétrica • Construção de redes de abastecimento de água, coleta de esgoto e construções correlatas, exceto obras de irrigação • Obras de irrigação • Construção de redes de transportes por dutos, exceto para água e esgoto • Outras obras de engenharia civil não especificadas anteriormente • Instalação e manutenção elétrica • Administração de obras • Serviços de engenharia",
+      "localizacao": "8° Andar, Torre D",
+      "sala": "814",
+      "predio": "Torre D",
+      "telefone": "113837992711917018201",
+      "telefoneHref": "tel:113837992711917018201",
+      "email": "orcamento@klaoengenharia.com.br",
+      "site": "https://www.klaoengenharia.com.br/",
+      "horario": {
+        "abre": "08:00",
+        "fecha": "18:00"
+      }
+    },
+    {
+      "slug": "lavih-spa-vila-leopoldina-2",
+      "nome": "Lavih Spa Vila Leopoldina",
+      "categorias": [
+        "Saúde e Bem Estar"
+      ],
+      "logo": "/img/empresas/lavih-spa-vila-leopoldina-2.webp",
+      "descricao": "Funcionamos de Segunda à Sexta das 09:00 às 20:00 e aos Sábados das 09:00 às 18:00 A Lavih Spa é uma rede de franquias inovadoras, pionera ao trazer a experiência exclusiva do arco dourado, um conceito revolucionário que eleva o relaxamento a um novo nível. Unimos técnicas orientais tradicionais ao luxo contemporâneo, criando um ambiente onde cada detalhe foi pensado para proporcionar bem-estar, equilíbrio e renovação. Nosso portfólio inclui além do aclamado e consolidado Hair Spa, outros serviços com: Limpeza de Pele Relaxamento, Spa dos Pés, Ventosaterapia, Drenagem Linfática, Massagem com Pedras e Argioloterapia, desenvolvidos para promover não apenas o relaxamento físico, mas também o equilíbrio mental e emocional.",
+      "localizacao": "9° Andar, Torre B",
+      "sala": "905",
+      "predio": "Torre B",
+      "telefone": "(11) 91988-5217",
+      "telefoneHref": "tel:11919885217",
+      "email": "",
+      "site": "https://www.instagram.com/lavihspavilaleopoldina?igsh=dnQxd2l5cG5zZzBk",
+      "horario": {
+        "abre": "09:00",
+        "fecha": "18:00"
+      }
+    },
+    {
+      "slug": "lm-podologia",
+      "nome": "LM Podologia",
+      "categorias": [
+        "Saúde e Bem Estar"
+      ],
+      "logo": "/img/empresas/lm-podologia.webp",
+      "descricao": "Funcionamento de terça à sexta. Também abrimos aos sábados, das 08h às 17h. É especializada no cuidado clínico e terapêutico dos pés, oferecendo soluções completas para saúde, conforto e bem-estar. Atua no tratamento de problemas podológicos como unha encravada, calosidades, fissuras, verruga plantar, micose, infecções, bicho de pé, correções podais e procedimentos clínicos especializados, além de terapias complementares como a massagem podal e relaxante. Com protocolos técnicos rigorosos, alto padrão de esterilização e atendimento humanizado, a LM Podologia oferece um cuidado preciso, seguro e personalizado, focado no alívio da dor, na recuperação funcional e na qualidade de vida do paciente.",
+      "localizacao": "5° Andar, Torre C",
+      "sala": "509",
+      "predio": "Torre C",
+      "telefone": "119948098783",
+      "telefoneHref": "tel:119948098783",
+      "email": "atendimentoolharreal@gmail.com",
+      "site": "https://www.instagram.com/podologia_lm/",
+      "horario": {
+        "abre": "09:00",
+        "fecha": "18:00"
+      }
+    },
+    {
+      "slug": "lolly-brasil",
+      "nome": "Lolly Brasil",
+      "categorias": [
+        "Saúde"
+      ],
+      "logo": "/img/empresas/lolly-brasil.webp",
+      "descricao": "Funcionamos de segunda à sexta. Às sextas-feiras fechamos às 17h. Empresa do segmento de Puericultura Leve, especializada em produtos para bebês e cuidados infantis.",
+      "localizacao": "1° Andar, Torre A",
+      "sala": "104",
+      "predio": "Torre A",
+      "telefone": "(19) 3492-8270",
+      "telefoneHref": "tel:1934928270",
+      "email": "comercial@lolly.com.br",
+      "site": "https://lolly.com.br/",
+      "horario": {
+        "abre": "08:00",
+        "fecha": "18:00"
+      }
+    },
+    {
+      "slug": "lumen-it-tecnologia-da-informacao-ltda",
+      "nome": "Lumen IT Tecnologia da Informação Ltda",
+      "categorias": [
+        "Tecnologia"
+      ],
+      "logo": "/img/empresas/lumen-it-tecnologia-da-informacao-ltda.webp",
+      "descricao": "Funcionamos de segunda à sexta. Lumen IT é uma empresa brasileira com mais de 26 anos de experiência no mercado de tecnologia e consultoria empresarial. Somos especializados em soluções inovadoras de tecnologia, compliance e gestão, com foco em otimizar processos operacionais, fiscais, tributários, jurídicos e de comércio exterior para empresas de diferentes setores. Descrição dos Serviços: * Consultoria e implementação de plataformas de compliance (fiscal e comex), da Thomson Reuters Brasil – Reforma Tributária; * Outsourcing e BPO nas áreas fiscais e contábeis; * Gestão de TI e alocação de recursos humanos especializados, bem como Hunting; * Soluções de compliance jurídico e assinatura eletrônica de documentos;",
+      "localizacao": "8° Andar, Torre C",
+      "sala": "803",
+      "predio": "Torre C",
+      "telefone": "(11) 4058-9292",
+      "telefoneHref": "tel:1140589292",
+      "email": "contato@lumenit.com.br",
+      "site": "https://www.lumenit.com.br/",
+      "horario": {
+        "abre": "08:30",
+        "fecha": "17:30"
+      }
+    },
+    {
+      "slug": "maioba-turismo-viagens-que-contam-historias",
+      "nome": "MAIOBA TURISMO – Viagens que contam Histórias",
+      "categorias": [
+        "Turismo"
+      ],
+      "logo": "/img/empresas/maioba-turismo-viagens-que-contam-historias.webp",
+      "descricao": "A Maioba Turismo é uma agência especializada em viagens personalizadas pelo Brasil e pelo mundo. Trabalhamos com três segmentos: Viagens escolares, Lazer e Viagens Corporativas. Procuramos entender as necessidades e os interesses de nossos clientes para oferecer as melhores opções de serviços e roteiros para cada perfil. Além disso, auxiliamos em todos os processos de planejamento e concretização da viagem, para que ela seja o mais agradável e proveitosa possível. Nossos anos de experiência no ramo do turismo nos deram a oportunidade de conhecer pessoalmente diversos destinos, o que nos proporciona bagagem e segurança para sugerir sempre o roteiro mais adequado às expectativas de cada viajante. Nossa equipe é prestativa, motivada e atende nossos clientes com simpatia e rapidez. Contamos também com parceiros especialistas que nos dão suporte para realizarmos um trabalho sério e responsável.",
+      "localizacao": "Torre B",
+      "sala": "1006",
+      "predio": "Torre B",
+      "telefone": "(11) 2367-1582",
+      "telefoneHref": "tel:1123671582",
+      "email": "contato@maioba.com.br",
+      "site": "http://maioba.com.br",
+      "horario": null
+    },
+    {
+      "slug": "mais-motor-br",
+      "nome": "Mais Motor BR",
+      "categorias": [
+        "Automotivo"
+      ],
+      "logo": "/img/empresas/mais-motor-br.webp",
+      "descricao": "Funcionamos de segunda à sexta-feira. A Mais Motor BR é uma empresa especializada na compra, venda e intermediação de veículos, oferecendo um atendimento transparente, humanizado e focado na melhor experiência do cliente. Trabalhamos com veículos seminovos selecionados, sempre prezando pela qualidade, procedência e segurança em cada negociação. Nosso compromisso vai além da venda: buscamos entender as necessidades de cada cliente para indicar a melhor opção, com suporte completo em todo o processo, desde a escolha do veículo até a finalização da documentação. Serviços oferecidos pela Mais Motor BR: Compra e venda de veículos seminovos Intermediação de negociações Avaliação de veículos Consultoria personalizada para compra do carro ideal Suporte com documentação e processos burocráticos Atendimento próximo, ágil e confiável",
+      "localizacao": "Torre C",
+      "sala": "101",
+      "predio": "Torre C",
+      "telefone": "(11) 97859-2706",
+      "telefoneHref": "tel:11978592706",
+      "email": "comercialmaismotorbr@gmail.com",
+      "site": "https://maismotorbr.com.br/",
+      "horario": {
+        "abre": "09:00",
+        "fecha": "18:00"
+      }
+    },
+    {
+      "slug": "mbee-mel-de-terroir",
+      "nome": "Mbee Mel de Terroir",
+      "categorias": [
+        "Loja"
+      ],
+      "logo": "/img/empresas/mbee-mel-de-terroir.webp",
+      "descricao": "Funcionamos de segunda à sexta. Mel e outros produtos relacionados– loja de fábrica",
+      "localizacao": "",
+      "sala": "38",
+      "predio": "Vila",
+      "telefone": "(11) 91767-0707",
+      "telefoneHref": "tel:11917670707",
+      "email": "vendas@mbee.com.br",
+      "site": "http://www.lojambee.com.br/",
+      "horario": {
+        "abre": "09:00",
+        "fecha": "17:00"
+      }
+    },
+    {
+      "slug": "miroah-clinic-estetica",
+      "nome": "Miroah Clinic Estética",
+      "categorias": [
+        "Estética"
+      ],
+      "logo": "/img/empresas/miroah-clinic-estetica.webp",
+      "descricao": "Funcionamos de segunda à sábado. Clínica de estética harmonização facial e corporal",
+      "localizacao": "Torre D",
+      "sala": "107",
+      "predio": "Torre D",
+      "telefone": "(11) 97098-7575",
+      "telefoneHref": "tel:11970987575",
+      "email": "miroahclinic@gmail.com",
+      "site": "https://www.instagram.com/miroahclinic/",
+      "horario": {
+        "abre": "10:00",
+        "fecha": "18:00"
+      }
+    },
+    {
+      "slug": "novamerica-negocios-imobiliarios-ltda",
+      "nome": "Novamérica Negócios Imobiliários Ltda",
+      "categorias": [
+        "Imobilário"
+      ],
+      "logo": "/img/empresas/novamerica-negocios-imobiliarios-ltda.webp",
+      "descricao": "Funcionamos de segunda à sexta. Atuante no mercado imobiliário, através de seus representantes e sócios: Sergio Barbosa de Souza, inscrito no Conselho Regional de Corretores de Imóveis, CRECI, sob o nº 049.664-F desde 1996. A NOVAMÉRICA NEGÓCIOS IMOBILIÁRIOS inscrita no Conselho Regional de Corretores de Imóveis, CRECI , sob o nº 024.242-J iniciou suas atividades em 2010 visando construir a sua história no mercado imobiliário de São Paulo, de forma sólida, confiável e duradoura. Trata-se de imobiliária atuante no mercado, com um histórico íntegro e de ótimas negociações… A busca pela excelência é à maneira crescimento neste mercado, sendo assim, a NOVAMÉRICA NEGÓCIOS IMOBILIÁRIOS oferece para os seus clientes um atendimento personalizado, o que resulta em segurança a todos os negócios realizados, satisfazendo os nossos clientes. A atuação com dinamismo e profissionalismo na prestação de serviços, faz da NOVAMÉRICA NEGÓCIOS IMOBILIÁRIOS uma das empresas mais eficientes no mercado imobiliário",
+      "localizacao": "Torre E",
+      "sala": "13",
+      "predio": "Torre E",
+      "telefone": "1194011509111946904541",
+      "telefoneHref": "tel:1194011509111946904541",
+      "email": "financeironovamericaimoveis.sp@gmail.com",
+      "site": "https://www.novamericaimoveis.com.br/",
+      "horario": {
+        "abre": "09:00",
+        "fecha": "18:00"
+      }
+    },
+    {
+      "slug": "olhar-real-studio-de-sobrancelhas-e-beleza",
+      "nome": "Olhar Real | Studio de Sobrancelhas e beleza",
+      "categorias": [
+        "Estética"
+      ],
+      "logo": "/img/empresas/olhar-real-studio-de-sobrancelhas-e-beleza.webp",
+      "descricao": "Funcionamos de terça à sábado. Sábados: das 08h às 17h. A Olhar Real | Studio de Sobrancelhas é especializada em design de sobrancelhas e protocolos avançados do olhar, com foco em naturalidade, precisão e personalização. Cada sobrancelha é desenhada de acordo com as proporções do rosto, valorizando a identidade e a expressão de cada cliente. O studio oferece serviços como design de sobrancelhas, brow lamination, nano fios e tratamentos para realce dos fios, sempre com técnica refinada e resultados elegantes. Além das sobrancelhas, a Olhar Real reúne serviços complementares de beleza e cuidado, como manicure, pedicure, nail designer, spa das mãos e pés e podologia, proporcionando uma experiência completa em um único espaço.",
+      "localizacao": "5° Andar, Torre C",
+      "sala": "509",
+      "predio": "Torre C",
+      "telefone": "(11) 91848-1303",
+      "telefoneHref": "tel:11918481303",
+      "email": "atendimentoolharreal@gmail.com",
+      "site": "https://www.instagram.com/olharreal/",
+      "horario": {
+        "abre": "09:00",
+        "fecha": "18:00"
+      }
+    },
+    {
+      "slug": "omega-up",
+      "nome": "OMEGA UP",
+      "categorias": [
+        "Assessoria Financeira",
+        "Consultoria"
+      ],
+      "logo": "/img/empresas/omega-up.webp",
+      "descricao": "Funcionamos de segunda à quinta das 08h30 às 18h e sexta-feira das 08h30 às 17h30. A OMEGA UP atua há 28 anos no mercado, oferecendo soluções contábeis, fiscais e financeiras com foco na legalidade, otimização de processos e aumento da lucratividade das empresas. Nosso compromisso é entregar informações seguras, atendimento personalizado e suporte completo à gestão empresarial. Serviços oferecidos: • Assessoria Contábil • Consultoria financeira • Planejamento Tributário • Recuperação de Créditos • BPO Financeiro • BPO de RH • Suporte Societário (abertura, alteração contratual, certidões e regularização de CNPJ)",
+      "localizacao": "Torre E",
+      "sala": "617",
+      "predio": "Torre E",
+      "telefone": "113831391411985121809",
+      "telefoneHref": "tel:113831391411985121809",
+      "email": "comercial@omegac.com.br",
+      "site": "https://omegaup.com.br/",
+      "horario": {
+        "abre": "08:30",
+        "fecha": "17:30"
+      }
+    },
+    {
+      "slug": "inspirar-comunicacao",
+      "nome": "Peak Scientific Brasil",
+      "categorias": [
+        "Assistência Técnica",
+        "Loja"
+      ],
+      "logo": "/img/empresas/inspirar-comunicacao.webp",
+      "descricao": "Funcionamos de segunda à sexta. Venda de geradores de alta performance destinados a laboratórios analíticos, bem como serviços de manutenção e peças de reposição.",
+      "localizacao": "1° Andar, Torre A",
+      "sala": "4",
+      "predio": "Torre A",
+      "telefone": "(11) 3644-4246",
+      "telefoneHref": "tel:1136444246",
+      "email": "brazilfinance@peakscientific.com",
+      "site": "https://www.peakscientific.com.br/",
+      "horario": {
+        "abre": "09:00",
+        "fecha": "18:00"
+      }
+    },
+    {
+      "slug": "petex-transportes-e-logistica-ltda",
+      "nome": "Petex Transportes e Logística LTDA",
+      "categorias": [
+        "Logística e Comércio Exterior"
+      ],
+      "logo": "/img/empresas/petex-transportes-e-logistica-ltda.webp",
+      "descricao": "Funcionamos de segunda à sexta-feira das 08:00 às 17:00 A Petex é especializada em soluções logísticas entre as regiões Sul e Sudeste do Brasil. Atuamos no transporte de diversos tipos de produtos, com foco na segurança, eficiência e pontualidade em cada entrega.",
+      "localizacao": "",
+      "sala": "",
+      "predio": "Vila 17",
+      "telefone": "1138317172143294321814981946925",
+      "telefoneHref": "tel:1138317172143294321814981946925",
+      "email": "lilianazanini@petexlog.com.br",
+      "site": "https://petexlog.com.br/",
+      "horario": {
+        "abre": "08:00",
+        "fecha": "17:00"
+      }
+    },
+    {
+      "slug": "pitangasp",
+      "nome": "PitangaSP",
+      "categorias": [
+        "Loja"
+      ],
+      "logo": "/img/empresas/pitangasp.webp",
+      "descricao": "Funcionamos de segunda à sexta. Venda no varejo de moda feminina",
+      "localizacao": "6° Andar, Torre B",
+      "sala": "610",
+      "predio": "Torre B",
+      "telefone": "(11) 93200-9344",
+      "telefoneHref": "tel:11932009344",
+      "email": "trocaedevolucao@pitangasp.com.br",
+      "site": "https://www.pitangasp.com.br/",
+      "horario": {
+        "abre": "09:00",
+        "fecha": "17:00"
+      }
+    },
+    {
+      "slug": "piu-salute-nutricao-e-fisioterapia-ltda",
+      "nome": "Più Salute Nutrição e Fisioterapia Ltda",
+      "categorias": [
+        "Saúde",
+        "Saúde e Bem Estar"
+      ],
+      "logo": "/img/empresas/piu-salute-nutricao-e-fisioterapia-ltda.webp",
+      "descricao": "Funcionamos de segunda à quinta-feira das 09:00 às 19:00 | Sexta-feira das 09:00 às 17:00 |Sábado das 08:00 às 12:00 | Trabalhando há mais de 20 anos com saúde, bem estar e qualidade de vida nas áreas de Nutrição, Fisioterapia e Acupuntura, a Più Salute oferece tratamentos diferenciados e personalizados, que vão desde a reeducação postural, medicina tradicional chinesa, técnicas integrativas, atividade física orientada e conscientização de melhores hábitos alimentares. Nutrição: Uma consulta nutricional é o primeiro passo para transformar sua alimentação em uma poderosa ferramenta de saúde. Nossas nutricionistas avaliam suas necessidades individuais, histórico médico e objetivos para criar um plano alimentar totalmente personalizado. Além de ajudar na perda ou ganho de peso, uma boa nutrição fortalece o sistema imunológico, melhora a digestão, aumenta os níveis de energia e contribui para a prevenção de doenças. Mais do que uma dieta, você adquire hábitos saudáveis que promovem longevidade e bem-estar. Nutrição Clínica Nutrição Esportiva Nutrição Infantil (TDHA, Autismo) Nutrição para Gestantes Nutrição para Idosos Nutrição Comportamental Pré e Pós Cirurgia Bariátrica Obesidade Fisioterapia: Uma postura inadequada pode causar dores crônicas, fadiga e limitações funcionais. Nossas sessões de fisioterapia com foco na postura trabalham para corrigir desequilíbrios musculares e articulares, aliviando tensões e prevenindo problemas futuros. Através de exercícios direcionados e técnicas manuais, ajudamos a realinhar o corpo, melhorando a mobilidade, a força muscular e promovendo uma postura mais equilibrada e saudável para o dia a dia. Fisioterapia Ortopédica, Esportiva, Pélvica, Vestibular RPG – Reeducação Postural Global – Método Philippe Souchard Fisioterapia Integrativa Micro fisioterapia Bio alinhamento Barras de Access Drenagem Linfática Manual Massagens Terapêuticas Liberação miofascial Massagem facial Massagem podal Acupuntura: Acupuntura é uma técnica milenar da Medicina Tradicional Chinesa, que promove o bem-estar físico e mental através da inserção de agulhas finas em pontos estratégicos e energéticos do corpo. Ela estimula o sistema nervoso, liberando endorfinas e outros neurotransmissores que reduzem a dor e o estresse. É eficaz no tratamento de dores crônicas, enxaquecas, problemas digestivos, insônia e ansiedade, além de melhorar a circulação e o funcionamento geral do organismo. A acupuntura proporciona relaxamento profundo e uma sensação de equilíbrio e renovação. Medicina Tradicional Chinesa Acupuntura Auriculoterapia Acupuntura Estética Redução de Circunferência Abdominal Ventosa terapia",
+      "localizacao": "1° Andar, Torre D",
+      "sala": "110",
+      "predio": "Torre D",
+      "telefone": "113021569211982039680",
+      "telefoneHref": "tel:113021569211982039680",
+      "email": "contato@piusalute.com.br",
+      "site": "https://www.instagram.com/piusaluteclinica/",
+      "horario": {
+        "abre": "09:00",
+        "fecha": "17:00"
+      }
+    },
+    {
+      "slug": "priddo-negocios-imobiliarios-e-assessoria-de-vendas-ltda",
+      "nome": "Priddo Negócios Imobiliários e Assessoria de Vendas Ltda.",
+      "categorias": [
+        "Imobilário"
+      ],
+      "logo": "/img/empresas/priddo-negocios-imobiliarios-e-assessoria-de-vendas-ltda.webp",
+      "descricao": "Funcionamos de segunda à sexta. Serviços: Priddo uma imobiliária que atende na prestação de serviços de Administração de bens, Assessoria, Intermediação de Vendas e Locações na região da Zona Oeste de São Paulo, Com infraestrutura, sistemas informatizados, acesso a bancos, infraestrutura completa de escritório e recursos humanos altamente qualificados e capacitados para realização dos negócios dos seus clientes, assegurando excelência na prestação de serviço, com segurança do negócio ao seu cliente. Redes sociais: https://www.facebook.com/imobiliariapriddo https://www.instagram.com/imobiliariapriddo https://www.linkedin.com/company/24828949/admin/dashboard/",
+      "localizacao": "Térreo, Torre D",
+      "sala": "10",
+      "predio": "Torre D",
+      "telefone": "(11) 4302-5050",
+      "telefoneHref": "tel:1143025050",
+      "email": "",
+      "site": "http://www.priddo.com.br",
+      "horario": {
+        "abre": "09:00",
+        "fecha": "18:00"
+      }
+    },
+    {
+      "slug": "priscilla-felix-fotografia",
+      "nome": "Priscilla Felix Fotografia",
+      "categorias": [
+        "Fotografia"
+      ],
+      "logo": "/img/empresas/priscilla-felix-fotografia.webp",
+      "descricao": "Funcionamos de segunda à sexta-feira das 09:00 às 19:00 | Sábado das 09:00 às 17:00 | Domingo conforme agendamento prévio. Priscilla Felix Fotografia é um estúdio especializado em ensaios de gestantes, parto, recém-nascidos, criado para quem busca mais do que imagens bonitas — busca segurança, sensibilidade e profundidade. Temos equipe especializada para registrar eventos como festas, batizado e fotos de marca profissional. Com 12 anos de experiência na fotografia e formação na área da saúde, cada ensaio newborn é conduzido com conhecimento técnico, extremo cuidado e respeito absoluto ao bebê e à família. A fotografia segue uma estética atemporal, com uso preciso da luz e direção delicada, valorizando a mulher, o vínculo e a essência de cada fase, sem cenários artificiais ou modismos passageiros. Aqui, cada detalhe é pensado com intenção, calma e responsabilidade, para que a experiência seja tão memorável quanto as imagens que permanecem. Porque quando há conhecimento, cuidado e sensibilidade, a fotografia deixa de ser apenas registro — e se torna legado.",
+      "localizacao": "9° Andar, Torre B",
+      "sala": "910",
+      "predio": "Torre B",
+      "telefone": "(11) 98082-8886",
+      "telefoneHref": "tel:11980828886",
+      "email": "contato@priscillafelix.com",
+      "site": "http://www.priscillafelix.com",
+      "horario": {
+        "abre": "09:00",
+        "fecha": "19:00"
+      }
+    },
+    {
+      "slug": "projepav-engenharia-ltda",
+      "nome": "Projepav Engenharia Ltda",
+      "categorias": [
+        "Engenharia"
+      ],
+      "logo": "/img/empresas/projepav-engenharia-ltda.webp",
+      "descricao": "Funcionamos de segunda à sexta. Estudos Geotécnicos; Projetos de Terraplenagem, Geométrico, Drenagem, Pavimentação; Projeto de Restauração de Pavimentação; Laudos e Pareceres Técnicos; Assistência Técnica a Obras de Terraplenagem e Pavimentação.",
+      "localizacao": "4° Andar, Torre D",
+      "sala": "402",
+      "predio": "Torre D",
+      "telefone": "",
+      "telefoneHref": "",
+      "email": "projepav@projepav.com.br",
+      "site": "https://www.projepav.com.br/",
+      "horario": {
+        "abre": "08:00",
+        "fecha": "17:00"
+      }
+    },
+    {
+      "slug": "vera-canhoni",
+      "nome": "Psicóloga, Psicanalista Vera Canhoni",
+      "categorias": [
+        "Saúde"
+      ],
+      "logo": "/img/empresas/vera-canhoni.webp",
+      "descricao": "Funcionamos de segunda à sexta-feira. Consultório de Psicologia – Psicoterapia para jovens, adultos e idosos. Atendimento presencial ou online. Projeto Semear Saúde Emocional – https://veracanhoni.com/2026/07/29/projeto-semear-saude-emocional/",
+      "localizacao": "10° Andar, Torre D",
+      "sala": "1012",
+      "predio": "Torre D",
+      "telefone": "(11) 99919-0700",
+      "telefoneHref": "tel:11999190700",
+      "email": "vera.canhoni@gmail.com",
+      "site": "https://www.veracanhoni.com",
+      "horario": {
+        "abre": "10:00",
+        "fecha": "19:00"
+      }
+    },
+    {
+      "slug": "rafaella-tavollassi-photography",
+      "nome": "Rafaella Tavollassi Photography",
+      "categorias": [
+        "Fotografia"
+      ],
+      "logo": "/img/empresas/rafaella-tavollassi-photography.webp",
+      "descricao": "Nosso horário de atendimento é todos os dias das 10h às 20h, o funcionamento depende do agendamento do ensaio. Empresa de fotografia: eventos corporativos, festas de aniversários, casamento, bodas, debutante (15 anos), batizados, formaturas. Ensaios: branding (marca), corporativo, ensaio gestante, ensaio temático, ensaio sensual, ensaio casal, ensaio de família, Dia das Mães, Páscoa, Newborn, Lifestyle, documental, Dia das Crianças, Natal, ensaio aniversário.",
+      "localizacao": "6° Andar, Torre D",
+      "sala": "613",
+      "predio": "Torre D",
+      "telefone": "119145171672",
+      "telefoneHref": "tel:119145171672",
+      "email": "rafaellatavollassiphotography@gmail.com",
+      "site": "http://www.rafaellatavollassiphotography.com",
+      "horario": {
+        "abre": "10:00",
+        "fecha": "20:00"
+      }
+    },
+    {
+      "slug": "ramo-2",
+      "nome": "Ramo",
+      "categorias": [
+        "Tecnologia"
+      ],
+      "logo": "/img/empresas/ramo-2.webp",
+      "descricao": "Funcionamos de segunda à sexta-feira. A Ramo é uma empresa de tecnologia especializada em soluções de gestão empresarial, atuando com implementação, consultoria e suporte a sistemas SAP. Atende empresas de pequeno e médio e porte no Brasil e na América Latina, apoiando a melhoria de processos, eficiência operacional e tomada de decisão por meio da tecnologia.",
+      "localizacao": "Torre A",
+      "sala": "405",
+      "predio": "Torre A",
+      "telefone": "(11) 3214-2278",
+      "telefoneHref": "tel:1132142278",
+      "email": "marketing@ramo.com.br",
+      "site": "http://www.ramo.com.br",
+      "horario": {
+        "abre": "09:00",
+        "fecha": "18:00"
+      }
+    },
+    {
+      "slug": "rms-contabilidade",
+      "nome": "RMS CONTABILIDADE",
+      "categorias": [
+        "Assessoria Financeira"
+      ],
+      "logo": "/img/empresas/rms-contabilidade.webp",
+      "descricao": "Funcionamos de segunda à sexta-feira. Salas: 210 e 704 A RMS CONTABILIDADE atua na prestação de serviços contábeis, tributários e trabalhistas, oferecendo soluções integradas voltadas à gestão eficiente e à conformidade legal das organizações. Seu escopo de atuação abrange a contabilidade societária, o planejamento e a gestão tributária, bem como a administração das rotinas trabalhistas e previdenciárias. Com foco na qualidade técnica e no atendimento personalizado, a empresa busca apoiar seus clientes na tomada de decisões, assegurando o cumprimento das obrigações legais e contribuindo para a organização financeira, a redução de riscos e a melhoria do desempenho empresarial. A atuação é pautada por ética, transparência e atualização constante, acompanhando as mudanças na legislação contábil, fiscal e trabalhista. Dessa forma, a empresa posiciona-se como parceira estratégica das organizações, oferecendo suporte técnico confiável e soluções alinhadas às necessidades de cada cliente.",
+      "localizacao": "2° Andar, Torre B",
+      "sala": "210",
+      "predio": "Torre B",
+      "telefone": "(11) 97057-9127",
+      "telefoneHref": "tel:11970579127",
+      "email": "contato@rmscontabilidade.com.br",
+      "site": "http://www.rmscontabilidade.com.br",
+      "horario": {
+        "abre": "08:00",
+        "fecha": "18:00"
+      }
+    },
+    {
+      "slug": "seo-shinohara-odontologia-ltda",
+      "nome": "Seo & Shinohara Odontologia Ltda.",
+      "categorias": [
+        "Saúde"
+      ],
+      "logo": "/img/empresas/seo-shinohara-odontologia-ltda.webp",
+      "descricao": "Funcionamos de segunda-feira à sexta-feira das 08h00 às 17h00 e sábado das 08h00 às 12h00. A Seo & Shinohara Odontologia Ltda. atua na odontologia proporcionando saúde bucal e devolvendo auto estima aos pacientes. Oferece serviços especializados atuando principalmente em Endodontia, Implantodontia, Cirurgia Bucomaxilofacial (extração de siso, cirurgia ortognática e enxertos) e Disfunção Temporomandibular.",
+      "localizacao": "4° Andar, Torre B",
+      "sala": "406",
+      "predio": "Torre B",
+      "telefone": "(11) 3807-9940",
+      "telefoneHref": "tel:1138079940",
+      "email": "shinoharaodontologia@gmail.com",
+      "site": "",
+      "horario": {
+        "abre": "08:00",
+        "fecha": "17:00"
+      }
+    },
+    {
+      "slug": "sis-foto-e-design",
+      "nome": "SiS Foto e Design",
+      "categorias": [
+        "Fotografia"
+      ],
+      "logo": "/img/empresas/sis-foto-e-design.webp",
+      "descricao": "Funcionamos de segunda à sábado. Sábados das 09h às 15h. Estúdio de fotografia de família, especializado em ensaio newborn. Fotografamos gestantes, crianças, eventos infantis. Fotografia corporativa. Nós, Camila e Gabi, fotografamos todos os momentos mais importantes da sua família. No momento que você faz o seu primeiro ensaio com a gente (geralmente é o gestante ou o newborn), você entra oficialmente para a família SiS. E queremos participar da sua família também. <3Nós somos guardiãs da memória da sua família. Fotografamos a gestação, a revelação, a chegada do bebê, os primeiros dias, o crescimento, os eventos mais importantes da sua família como aniversário, batizado e o que mais você quiser. Único estúdio de fotografia newborn no Brasil em que as duas fotógrafas são, também, enfermeiras especialistas em recém-nascidos e crianças.",
+      "localizacao": "2° Andar, Torre B",
+      "sala": "104",
+      "predio": "Torre B",
+      "telefone": "(11) 99496-6312",
+      "telefoneHref": "tel:11994966312",
+      "email": "oi@sisfotoedesign.com.br",
+      "site": "http://www.sisfotoedesign.com.br/",
+      "horario": {
+        "abre": "09:00",
+        "fecha": "19:00"
+      }
+    },
+    {
+      "slug": "snbc-brasil",
+      "nome": "SNBC Brasil",
+      "categorias": [
+        "Tecnologia"
+      ],
+      "logo": "/img/empresas/snbc-brasil.webp",
+      "descricao": "Funcionamos de segunda à sexta-feira. A SNBC (Shandong New Beiyang Information Technology Co., Ltd.) é uma empresa especializada em soluções para automação nos segmentos de finanças, varejo e logística.",
+      "localizacao": "Térreo, Torre D",
+      "sala": "6",
+      "predio": "Torre D / Torre E",
+      "telefone": "(11) 2737-0010",
+      "telefoneHref": "tel:1127370010",
+      "email": "sales@newbeiyang.com",
+      "site": "http://www.snbc.com.cn/",
+      "horario": {
+        "abre": "08:30",
+        "fecha": "17:30"
+      }
+    },
+    {
+      "slug": "stella-maris-negocios-imobiliarios",
+      "nome": "Stella Maris Negócios Imobiliários",
+      "categorias": [
+        "Imobilário"
+      ],
+      "logo": "/img/empresas/stella-maris-negocios-imobiliarios.webp",
+      "descricao": "A Stella Maris Negócios Imobiliários atua na compra, venda, locação e administração de imóveis residenciais, comerciais e industriais. Oferecemos atendimento personalizado para proprietários, compradores, locatários e investidores, acompanhando todas as etapas da negociação com segurança, transparência e conhecimento de mercado. Também trabalhamos com avaliação de imóveis, busca personalizada, divulgação imobiliária e apoio em processos de financiamento.",
+      "localizacao": "Torre B",
+      "sala": "711",
+      "predio": "Torre B",
+      "telefone": "(11) 97061-1473",
+      "telefoneHref": "tel:11970611473",
+      "email": "stella@smni.com.br",
+      "site": "https://smni.com.br/",
+      "horario": null
+    },
+    {
+      "slug": "threefy-tech",
+      "nome": "ThreeFy Tech",
+      "categorias": [
+        "Tecnologia"
+      ],
+      "logo": "/img/empresas/threefy-tech.webp",
+      "descricao": "A ThreeFy Tech é uma empresa de tecnologia especializada em soluções de Inteligência Artificial, automação e gestão. Desenvolvemos ferramentas para otimizar o atendimento, organizar processos comerciais e ajudar empresas a vender mais, com soluções personalizadas de acordo com suas necessidades.",
+      "localizacao": "",
+      "sala": "",
+      "predio": "",
+      "telefone": "(11) 91405-6947",
+      "telefoneHref": "tel:11914056947",
+      "email": "contato@threefytech.com.br",
+      "site": "https://threefytech.com.br/",
+      "horario": null
+    },
+    {
+      "slug": "toner-print",
+      "nome": "Toner Print",
+      "categorias": [
+        "Assistência Técnica",
+        "Gráfica"
+      ],
+      "logo": "/img/empresas/toner-print.webp",
+      "descricao": "Somos referência em suprimentos de impressão originais e compatíveis. Atendemos empresas de todos os portes além de pessoas físicas. Possuímos o serviço de locação de impressoras, multifuncionais e scanners, com suporte técnico especializado, garantindo sempre a melhor experiência para nossos clientes.",
+      "localizacao": "8 Andar, Torre E",
+      "sala": "806",
+      "predio": "Torre E",
+      "telefone": "(11) 3088-9823",
+      "telefoneHref": "tel:1130889823",
+      "email": "comercial@tonerprint.com.br",
+      "site": "http://www.tonerprint.com.br",
+      "horario": {
+        "abre": "08:30",
+        "fecha": "18:00"
+      }
+    },
+    {
+      "slug": "v-clinic-harmonizacao-facial",
+      "nome": "V Clinic Harmonização Facial",
+      "categorias": [
+        "Estética"
+      ],
+      "logo": "/img/empresas/v-clinic-harmonizacao-facial.webp",
+      "descricao": "Funcionamos de segunda à sexta das 10h às 19h e sábado das 8h às 13h. A V Clinic é um espaço de estética e bem-estar idealizado e conduzido pela Dra. Vanessa Santiago, cirurgiã-dentista especializada em harmonização facial. Com um olhar técnico e sensível, a Dra. Vanessa realiza atendimentos personalizados, focados em naturalidade, saúde e valorização da beleza individual. Cada paciente é avaliada de forma única, em um ambiente acolhedor, discreto e seguro, onde o cuidado vai além do procedimento e se transforma em experiência.",
+      "localizacao": "Torre E",
+      "sala": "1012",
+      "predio": "Torre E",
+      "telefone": "(11) 99382-6868",
+      "telefoneHref": "tel:11993826868",
+      "email": "",
+      "site": "https://vclinicsp.com.br/",
+      "horario": {
+        "abre": "10:00",
+        "fecha": "19:00"
+      }
+    },
+    {
+      "slug": "veduta-arquitetura-2",
+      "nome": "Veduta Arquitetura",
+      "categorias": [
+        "Arquitetura e Design"
+      ],
+      "logo": "/img/empresas/veduta-arquitetura-2.webp",
+      "descricao": "Funcionamos de segunda à sexta-feira. A Veduta Arquitetura é um escritório de arquitetura com atuação em projetos residenciais e corporativos, com foco em interiores de médio e alto padrão. Desenvolvemos projetos com sensibilidade e cuidado, criando espaços que traduzem histórias, valores e identidades, tanto para viver quanto para trabalhar. Fundado por Patricia Bacalá e com a atuação da arquiteta Andreza Gallani, o escritório reúne mais de 20 anos de experiência profissional de cada sócia, com sólido repertório em arquitetura, interiores e condução de obras. A Veduta atua desde a concepção até a execução dos projetos, oferecendo também gerenciamento, acompanhamento e assessoria de obras, garantindo segurança, eficiência e fidelidade ao conceito proposto. Com forte presença no segmento corporativo e comercial, desenvolve projetos para sedes empresariais, escritórios e espaços institucionais, além de projetos residenciais e projetos especiais, muitas vezes em parceria com agências e grandes marcas. A Veduta Arquitetura está pronta para transformar espaços em ambientes que expressem identidade, propósito e qualidade, do projeto à execução. E-mails de contato: andrezagalani@gmail.com patricia@veduta.arq.br",
+      "localizacao": "2° Andar, Torre E",
+      "sala": "208",
+      "predio": "Torre E",
+      "telefone": "1199488701211992820536",
+      "telefoneHref": "tel:1199488701211992820536",
+      "email": "patricia@veduta.arq.br",
+      "site": "https://www.instagram.com/vedutarq/",
+      "horario": {
+        "abre": "09:00",
+        "fecha": "18:00"
+      }
+    },
+    {
+      "slug": "vh-arquitetura-e-design",
+      "nome": "VH Arquitetura e Design",
+      "categorias": [
+        "Arquitetura e Design"
+      ],
+      "logo": "/img/empresas/vh-arquitetura-e-design.webp",
+      "descricao": "Funcionamos de Segunda a sexta-feira. Escritório de arquitetura e interiores residenciais e comerciais.",
+      "localizacao": "4° Andar, Torre D",
+      "sala": "406",
+      "predio": "Torre D",
+      "telefone": "1130834456119994836209",
+      "telefoneHref": "tel:1130834456119994836209",
+      "email": "vharquitetura@vharquitetura.com.br",
+      "site": "http://vharquitetura.com.br/",
+      "horario": {
+        "abre": "09:00",
+        "fecha": "18:00"
+      }
+    },
+    {
+      "slug": "viagem-express",
+      "nome": "Viagem Express",
+      "categorias": [
+        "Turismo"
+      ],
+      "logo": "/img/empresas/viagem-express.webp",
+      "descricao": "Funcionamos de segunda à sexta. Fundada em 2004, a Viagem Express é uma agência de viagens a lazer e corporativas que tem por objetivo oferecer experiências únicas ao redor do mundo. Com uma equipe de consultores capacitada para atender as necessidades e expectativas de cada cliente, tornamos o atendimento individualizado o nosso diferencial, sempre com uma visão apurada a cada detalhe que envolve uma viagem.",
+      "localizacao": "",
+      "sala": "27",
+      "predio": "Vila",
+      "telefone": "(11) 3646-0660",
+      "telefoneHref": "tel:1136460660",
+      "email": "atendimento@viagemexpress.com.br",
+      "site": "https://www.viagemexpress.com.br/",
+      "horario": {
+        "abre": "09:00",
+        "fecha": "18:00"
+      }
+    },
+    {
+      "slug": "visio-saude",
+      "nome": "VISIO SAÚDE",
+      "categorias": [
+        "Saúde"
+      ],
+      "logo": "/img/empresas/visio-saude.webp",
+      "descricao": "Funcionamos de segunda à sexta-feira. O Grupo Visio é referência na gestão completa de equipes médicas para instituições de saúde. Atuamos com expertise em áreas como Clínica Médica, Pediatria, Emergência, Terapia Intensiva, Ortopedia, Ginecologia e Obstetrícia, entre outras, garantindo atendimento qualificado de ponta a ponta. Contamos com uma equipe própria de mais de 2.000 médicos e atendemos operadoras de saúde, cooperativas médicas, hospitais privados, Unidades Básicas e de Pronto Atendimento, centros clínicos e instituições filantrópicas.",
+      "localizacao": "",
+      "sala": "",
+      "predio": "Vila 66/67",
+      "telefone": "(11) 98114-9899",
+      "telefoneHref": "tel:11981149899",
+      "email": "contato@visiosaude.com",
+      "site": "http://www.visiosaude.com",
+      "horario": {
+        "abre": "08:00",
+        "fecha": "17:00"
+      }
+    },
+    {
+      "slug": "viva-promo-360",
+      "nome": "VIVA PROMO 360",
+      "categorias": [
+        "Agência de Marketing"
+      ],
+      "logo": "/img/empresas/viva-promo-360.webp",
+      "descricao": "Funcionamos de segunda à sexta-feira das 08:30 às 19:00 A VIVA PROMO 360 é especializada no planejamento, coordenação e execução de ações promocionais, eventos corporativos e ativações de marca. Oferece gestão completa de projetos, ações em PDV e parcerias com influenciadores digitais, sempre com foco em resultados, visibilidade e engajamento do consumidor.",
+      "localizacao": "4° Andar, Torre B",
+      "sala": "402",
+      "predio": "Torre B",
+      "telefone": "11236483531195430875711994001575",
+      "telefoneHref": "tel:11236483531195430875711994001575",
+      "email": "gestaocomercial@vivapromo360.com.br",
+      "site": "",
+      "horario": {
+        "abre": "08:30",
+        "fecha": "19:00"
+      }
+    },
+    {
+      "slug": "vottax-technology-2",
+      "nome": "VOTTAX TECHNOLOGY",
+      "categorias": [
+        "Consultoria"
+      ],
+      "logo": "/img/empresas/vottax-technology-2.webp",
+      "descricao": "Funcionamos de segunda à sexta. A VOTTAX é uma consultoria de tecnologia e negócios focada em transformar operação em resultado. Atuamos com SAP, Salesforce e Thomson Reuters, além de parcerias com WEG e Wevy, conectando TI, fiscal/tributário, jurídico, CRM e Indústria 4.0. Integramos Cloud, IoT, Big Data e Inteligência Artificial (incluindo MES) para otimizar processos em fábricas, logística e gestão, com projetos ágeis, de alto impacto e rápido ROI. Mais do que consultoria, somos parceiros estratégicos para acelerar crescimento e inovação com governança. Contatos (Telefone e E-mail): Greice Torres: (11) 98420-8945 – greice.torres@vottax.com.br Clóvis Viana: (11) 95348-3063 – clovis.viana@vottax.com.br",
+      "localizacao": "9° Andar, Torre E",
+      "sala": "911",
+      "predio": "Torre E",
+      "telefone": "1198420894511953483063",
+      "telefoneHref": "tel:1198420894511953483063",
+      "email": "greice.torres@vottax.com.br",
+      "site": "http://www.vottax.com",
+      "horario": {
+        "abre": "09:00",
+        "fecha": "18:00"
+      }
+    },
+    {
+      "slug": "whitesmile-dalloca-odontologia",
+      "nome": "WHITESMILE – DALL’OCA ODONTOLOGIA",
+      "categorias": [
+        "Saúde"
+      ],
+      "logo": "/img/empresas/whitesmile-dalloca-odontologia.webp",
+      "descricao": "Funcionamos de segunda à sexta. Odontologia Especializada com especialistas em Estética, DTM e dor orofacial, Endodontia (canal), Periodontia, Implantes, Sedação, Ortodontia.",
+      "localizacao": "5° Andar, Torre C",
+      "sala": "505",
+      "predio": "Torre C",
+      "telefone": "(11) 94758-9078",
+      "telefoneHref": "tel:11947589078",
+      "email": "atendimento@whitesmile.com.br",
+      "site": "http://www.whitesmile.com.br/",
+      "horario": {
+        "abre": "08:00",
+        "fecha": "17:00"
+      }
+    },
+    {
+      "slug": "wn-clinic-medicina-de-alta-performance-aplicada-a-sua-vida",
+      "nome": "WN Clinic – Medicina de alta performance aplicada à sua vida",
+      "categorias": [
+        "Saúde"
+      ],
+      "logo": "/img/empresas/wn-clinic-medicina-de-alta-performance-aplicada-a-sua-vida.webp",
+      "descricao": "Funcionamos de segunda à sexta-feira. Não tratamos apenas sintomas. Cuidamos de pessoas que querem viver com mais energia, desempenho, autonomia e saúde ao longo dos anos, com medicina baseada em ciência, acompanhamento próximo e visão de longo prazo. Na WN Clinic, você é atendido por uma equipe integrada: Dr. Waldemar Neto – Clínica Médica e Medicina do Exercício e do Esporte Foco em emagrecimento, performance, saúde metabólica, composição corporal e modulação hormonal quando indicada. Dr. Thiago Macota – Ortopedia Foco em dor crônica, lesões, recuperação funcional e seguro às atividades físicas e esportivas. ______________ O que fazemos Acompanhamento médicos personalizados para: • Emagrecimento e composição corporal • Hipertrofia e performance física • Pós bariátrica • Sarcopenia e perda de massa muscular ligada à idade • Saúde hormonal (quando indicada) • Dor crônica • Pós operatório • Acompanhamento de doenças crônicas • Retorno ao esporte e prevenção de lesões Cada plano nasce de uma avaliação clínica detalhada, exames específicos e acompanhamento contínuo, sempre respeitando a individualidade e o contexto de cada paciente. ______________ Recursos e tecnologias Aliamos conhecimento médico a tecnologias de ponta para potencializar resultados e aumentar a segurança: • Terapia por ondas de choque • T-Sculptor • Infiltração articular guiada • Implantes hormonais e não hormonais • Terapias injetáveis Nossa filosofia Resultados sólidos não vêm de soluções rápidas, mas da combinação de: • Estratégia bem definida • Acompanhamento de perto • Ajustes contínuos Na WN Clinic, o objetivo é simples e profundo: reduzir riscos, otimizar a resposta do seu organismo e construir saúde duradoura. Para quem entende que cuidar do corpo não é vaidade — é o melhor investimento que se pode fazer.",
+      "localizacao": "2° Andar, Torre B",
+      "sala": "204",
+      "predio": "Torre B",
+      "telefone": "(11) 91203-6373",
+      "telefoneHref": "tel:11912036373",
+      "email": "enfermagem.wnmedicinaesportiva@gmail.com",
+      "site": "https://drwaldemarneto.com.br/%20@drwaldemarneto%20@wnclinicsp",
+      "horario": {
+        "abre": "09:00",
+        "fecha": "19:00"
+      }
+    },
+    {
+      "slug": "worknet-eventos",
+      "nome": "Worknet Eventos",
+      "categorias": [
+        "Tecnologia"
+      ],
+      "logo": "/img/empresas/worknet-eventos.webp",
+      "descricao": "Funcionamos de segunda à sexta-feira das 09:00 às 18:00 Especialistas em Tecnologia para Eventos e Credenciamento Há mais de duas décadas, a Worknet Eventos desenvolve soluções estratégicas de infraestrutura tecnológica e sistemas inteligentes para o mercado de live marketing e eventos corporativos. Unimos engenharia de software avançada a um suporte operacional dedicado para transformar a jornada do seu participante.",
+      "localizacao": "Térreo, Torre E",
+      "sala": "14",
+      "predio": "Torre E",
+      "telefone": "(11) 96779-2549",
+      "telefoneHref": "tel:11967792549",
+      "email": "eventos@workneteventos.com.br",
+      "site": "https://www.workneteventos.com.br/",
+      "horario": {
+        "abre": "09:00",
+        "fecha": "18:00"
+      }
+    }
+  ]
+}

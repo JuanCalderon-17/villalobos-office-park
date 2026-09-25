@@ -1,0 +1,131 @@
+---
+const { active = "home" } = Astro.props;
+
+const nav = [
+  { id: "home", label: "HOME", href: "/" },
+  { id: "sobre", label: "SOBRE NÓS", href: "/sobre-nos" },
+  { id: "empresas", label: "EMPRESAS", href: "/empresas" },
+  {
+    id: "eventos",
+    label: "EVENTOS",
+    href: "#",
+    children: [
+      { label: "Calendário", href: "/calendario" },
+      { label: "Salas e Auditorios", href: "/salas-auditorios" },
+    ],
+  },
+  { id: "contato", label: "CONTATO", href: "/contato" },
+];
+---
+
+<header class="absolute top-0 left-0 z-100 w-full">
+  <div class="flex items-start justify-between px-6 lg:h-[169px] lg:px-[100px]">
+    <a href="/" class="block pt-[20px] pb-[20px] lg:px-[30px]">
+      <img
+        src="/img/logo_villa_lobos_v02.png"
+        width="490"
+        height="314"
+        alt="Villa Lobos Office Park"
+        class="h-[72px] w-[112px] lg:h-[109px] lg:w-[170px]"
+      />
+    </a>
+
+    <div class="hidden items-center pt-[60px] lg:flex">
+      <nav class="flex">
+        {
+          nav.map((item) => (
+            <div class="group relative">
+              <a
+                href={item.href}
+                class:list={[
+                  "flex items-center gap-[1px] px-[15px] py-[3px] font-display text-[15px] leading-[19.5px] font-medium tracking-[2px]",
+                  active === item.id ? "text-sage" : "text-slate",
+                ]}
+              >
+                {item.label}
+                {item.children && (
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                )}
+              </a>
+              {item.children && (
+                <div class="invisible absolute top-full left-0 min-w-[220px] bg-white py-2 opacity-0 shadow-lg transition group-hover:visible group-hover:opacity-100">
+                  {item.children.map((child) => (
+                    <a
+                      href={child.href}
+                      class="block px-[15px] py-2 font-display text-[15px] leading-[19.5px] font-medium tracking-[1px] text-slate hover:text-sage"
+                    >
+                      {child.label}
+                    </a>
+                  ))}
+                </div>
+              )}
+            </div>
+          ))
+        }
+      </nav>
+
+      <a
+        href="/empresas?in_cat=74"
+        class="ml-[10px] flex h-[41px] w-[236px] items-center justify-center rounded-[8px] bg-mint font-display text-[15px] leading-[19.5px] font-medium tracking-[2px] text-fog"
+      >
+        AGENDE UMA VISITA
+      </a>
+    </div>
+
+    <button
+      type="button"
+      id="menu-toggle"
+      aria-label="Abrir menu"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+      class="mt-[26px] cursor-pointer p-2 text-slate lg:hidden"
+    >
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+      </svg>
+    </button>
+  </div>
+
+  <div id="mobile-menu" hidden class="bg-white px-6 pb-6 shadow-lg lg:hidden">
+    {
+      nav.map((item) => (
+        <>
+          <a
+            href={item.href}
+            class:list={[
+              "block py-3 font-display text-[15px] leading-[19.5px] font-medium tracking-[2px]",
+              active === item.id ? "text-sage" : "text-slate",
+            ]}
+          >
+            {item.label}
+          </a>
+          {item.children?.map((child) => (
+            <a href={child.href} class="block py-2 pl-4 font-display text-[15px] font-medium text-slate">
+              {child.label}
+            </a>
+          ))}
+        </>
+      ))
+    }
+    <a
+      href="/empresas?in_cat=74"
+      class="mt-3 flex h-[41px] items-center justify-center rounded-[8px] bg-mint font-display text-[15px] font-medium tracking-[2px] text-fog"
+    >
+      AGENDE UMA VISITA
+    </a>
+  </div>
+</header>
+
+<script>
+  const toggle = document.getElementById("menu-toggle");
+  const menu = document.getElementById("mobile-menu");
+
+  toggle?.addEventListener("click", () => {
+    const open = menu!.hidden;
+    menu!.hidden = !open;
+    toggle.setAttribute("aria-expanded", String(open));
+    toggle.setAttribute("aria-label", open ? "Fechar menu" : "Abrir menu");
+  });
+</script>

@@ -1,0 +1,86 @@
+---
+// Larguras e alinhamento seguem o original: 313 / 212 / 225px, a primeira alinhada
+// à esquerda e as outras duas centralizadas.
+const stats = [
+  { num: "5", label: "Torres Corporativas: 637 Salas Comerciais", peso: 313, alinha: "items-start text-left" },
+  { num: "90", label: "Casas de Vila", peso: 212, alinha: "items-center text-center" },
+  { num: "727", label: "Unidades Comerciais", peso: 225, alinha: "items-center text-center" },
+];
+
+// Cada foto entra com uma animação diferente no original (canto superior
+// esquerdo desliza de baixo, superior direito desliza da direita, etc).
+const gallery = [
+  { src: "/img/Foto-VillaBobosOfficePark5.jpg", anim: "slideInUp" },
+  { src: "/img/Foto-VillaBobosOfficePark3-1.jpg", anim: "slideInRight" },
+  { src: "/img/Foto-VillaBobosOfficePark2.jpg", anim: "fadeInLeft" },
+  { src: "/img/Foto-VillaBobosOfficePark4.jpg", anim: "fadeInUp" },
+];
+---
+
+<section class="mx-auto max-w-[1521px] px-6 py-12 lg:px-[62px]">
+  <div class="grid gap-10 lg:grid-cols-[1.51fr_1fr] lg:gap-[90px]">
+    <div>
+      <div class="flex flex-col gap-5 sm:flex-row">
+        {
+          stats.map((s) => (
+            <div
+              class:list={[
+                "flex min-h-[192px] flex-col bg-sand-bloco px-5 pt-[60px] pb-5",
+                s.alinha,
+              ]}
+              style={`flex: ${s.peso} 1 0`}
+            >
+              <span class="font-sans text-[60px] leading-[0] font-semibold text-white">
+                {s.num}
+              </span>
+              <span class="mt-[30px] mb-3 font-sans text-2xl leading-[30px] text-white">
+                {s.label}
+              </span>
+            </div>
+          ))
+        }
+      </div>
+
+      <div class="mt-[26px] grid grid-cols-2 gap-x-[31px] gap-y-[21px]">
+        {
+          gallery.map((foto) => (
+            <img
+              src={foto.src}
+              alt=""
+              width="379"
+              height="291"
+              loading="lazy"
+              data-reveal={foto.anim}
+              data-reveal-delay="500"
+              class="h-[291px] w-full object-cover"
+            />
+          ))
+        }
+      </div>
+    </div>
+
+    <div class="flex flex-col justify-center gap-6">
+      <span class="font-sans text-xl leading-5 font-semibold tracking-[1px] text-sand">
+        NOSSA PROPOSTA
+      </span>
+      <p class="font-sans text-[35px] leading-[56px] font-medium text-steel">
+        O AMBIENTE PERFEITO PARA SUA EMPRESA CRESCER
+      </p>
+      <p class="font-sans text-xl leading-8 tracking-[0.5px] text-graytext">
+        O Villa Lobos Office Park foi projetado para inspirar produtividade e bem-estar.
+        Nossas salas comerciais oferecem infraestrutura moderna, flexibilidade de layout,
+        oferecemos o melhor para seus colaboradores e clientes. Seja para uma startup ou
+        uma grande corporação, aqui você encontra o espaço ideal para seus negócios
+        prosperarem.
+      </p>
+      <a
+        href="/sobre-nos"
+        data-reveal="fadeInUp"
+        data-reveal-delay="600"
+        class="w-fit rounded-lg bg-mint px-6 py-3 font-sans text-xl leading-5 tracking-[0.5px] text-white"
+      >
+        SAIBA MAIS
+      </a>
+    </div>
+  </div>
+</section>

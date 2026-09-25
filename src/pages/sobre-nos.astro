@@ -1,0 +1,185 @@
+---
+import Base from "../layouts/Base.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+
+const diferenciais = [
+  {
+    titulo: "SALAS E AUDITÓRIOS FLEXÍVEIS",
+    texto:
+      "Oferecemos diversos espaços moduláveis para reuniões, treinamentos ou grandes eventos corporativos, disponíveis para locação.",
+  },
+  {
+    titulo: "ABERTURA PARA EVENTOS EXTERNOS",
+    texto:
+      "Qualquer pessoa ou empresa pode alugar nossos espaços e desfrutar de nossa infraestrutura de alto nível. Consulte a disponibilidade em nosso Calendário.",
+  },
+  {
+    titulo: "SUPORTE E GESTÃO EFICIENTE",
+    texto:
+      "Nossa administração garante a manutenção, segurança e a organização dos eventos com profissionalismo e agilidade.",
+  },
+  {
+    titulo: "ESTACIONAMENTO E VALET",
+    texto:
+      "Amplo estacionamento exclusivo para condôminos e visitantes, oferecendo a comodidade e segurança do serviço de manobrista (valet).",
+  },
+  {
+    titulo: "GASTRONOMIA E CONVENIÊNCIA",
+    texto:
+      "Desfrute de um excelente restaurante e lojas de conveniência, pensados para trazer praticidade e conforto ao seu dia a dia no escritório.",
+  },
+  {
+    titulo: "GALERIA DE SERVIÇOS",
+    texto: "Um mix de serviços especializados para que você resolva tudo em um só lugar.",
+  },
+  {
+    titulo: "MOBILIDADE SUSTENTÁVEL",
+    texto:
+      "Bicicletário seguro, incentivando o transporte alternativo e o bem-estar dos nossos usuários.",
+  },
+  {
+    titulo: "LOGÍSTICA FACILITADA (DOCA)",
+    texto:
+      "Contamos com uma doca dedicada para carga e descarga, otimizando a logística de entregas e recebimentos da sua empresa.",
+  },
+  {
+    titulo: "ESPAÇO DO COLABORADOR (REFEITÓRIO)",
+    texto:
+      "Um refeitório amplo e confortável, projetado para o momento de pausa e integração das equipes residentes.",
+  },
+];
+---
+
+<Base
+  title="Sobre Nós | Villa Lobos Office Park"
+  description="Inaugurado em 2010, o Villa Lobos Office Park une a funcionalidade de um condomínio corporativo de alto padrão com a conveniência dos melhores centros de compras."
+>
+  <Header active="sobre" />
+
+  <main class="pt-[169px]">
+    <section class="bg-mist">
+      <div id="video-hero" class="relative mx-auto aspect-video w-full max-w-[1521px]">
+        <img
+          src="/img/video-capa.jpg"
+          alt=""
+          width="1280"
+          height="720"
+          class="h-full w-full object-cover"
+        />
+        <button
+          type="button"
+          id="play-video"
+          class="absolute inset-0 flex cursor-pointer items-center justify-center bg-black/25 transition hover:bg-black/35"
+          aria-label="Reproduzir vídeo do Villa Lobos Office Park"
+        >
+          <span class="flex h-[68px] w-[96px] items-center justify-center rounded-[14px] bg-black/70">
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="white" aria-hidden="true">
+              <path d="M8 5v14l11-7z"></path>
+            </svg>
+          </span>
+        </button>
+      </div>
+    </section>
+
+    <section class="bg-mist px-6 py-20 lg:px-[50px]">
+      <div class="mx-auto grid max-w-[1421px] items-center gap-12 lg:grid-cols-2">
+        <div class="flex flex-col gap-6">
+          <span class="font-sans text-xl leading-5 font-semibold tracking-[1px] text-sand">
+            A NOSSA HISTÓRIA
+          </span>
+          <h1 class="font-sans text-[35px] leading-[45px] font-medium text-steel">
+            VILLA LOBOS OFFICE PARK: ONDE GRANDES IDEIAS ENCONTRAM GRANDES OPORTUNIDADES
+          </h1>
+          <p class="font-sans text-xl leading-[30px] text-graytext">
+            Inaugurado em 24 de novembro de 2010, o Villa Lobos Office Park foi concebido
+            para ser o principal centro empresarial da região. Nosso projeto une a
+            funcionalidade de um condomínio corporativo de alto padrão com a dinâmica e
+            conveniência dos melhores centros de compras.
+          </p>
+          <a
+            href="/contato"
+            class="w-fit rounded-lg bg-mint px-6 py-3 font-sans text-xl leading-5 text-white"
+          >
+            ENTRE EM CONTATO
+          </a>
+        </div>
+
+        <img
+          src="/img/Foto-VillaBobosOfficePark26-1.jpg"
+          alt="Villa Lobos Office Park"
+          width="761"
+          height="396"
+          class="h-auto w-full object-cover"
+        />
+      </div>
+    </section>
+
+    <section
+      class="relative flex min-h-[439px] items-center justify-center bg-cover bg-center px-6"
+      style="background-image: url('/img/Foto-VillaBobosOfficePark4.jpg');"
+    >
+      <img
+        src="/img/logo_villa_lobos_claro.png"
+        alt="Villa Lobos Office Park"
+        width="245"
+        height="157"
+        class="relative h-auto w-[245px]"
+      />
+    </section>
+
+    <section class="bg-fog px-6 py-20 lg:px-[50px]">
+      <div class="mx-auto grid max-w-[1421px] gap-x-12 gap-y-14 lg:grid-cols-3">
+        {
+          diferenciais.map((d) => (
+            <div class="flex flex-col gap-4">
+              <h2 class="font-sans text-[26px] leading-[39px] font-semibold text-slate">
+                {d.titulo}
+              </h2>
+              <p class="font-sans text-xl leading-[30px] text-graytext">{d.texto}</p>
+            </div>
+          ))
+        }
+      </div>
+    </section>
+
+    <section
+      class="relative flex min-h-[452px] items-center justify-center bg-cover bg-center px-6 text-center"
+      style="background-image: url('/img/Foto-VillaBobosOfficePark23.jpg');"
+    >
+      <div class="absolute inset-0 bg-black/54"></div>
+      <div class="relative flex max-w-[760px] flex-col items-center gap-6">
+        <span class="font-sans text-base leading-4 font-semibold tracking-[2px] text-white">
+          ENTRE EM CONTATO
+        </span>
+        <h2 class="font-sans text-[35px] leading-[45px] font-semibold text-white">
+          CONHEÇA NOSSOS ESPAÇOS E TRAGA OS EVENTOS DA SUA EMPRESA PARA CÁ
+        </h2>
+        <a
+          href="/contato"
+          class="rounded-lg bg-mint px-[30px] py-[15px] font-sans text-xl leading-5 text-white"
+        >
+          FALAR COM A ADMINISTRAÇÃO
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</Base>
+
+<script>
+  document.getElementById("play-video")?.addEventListener("click", () => {
+    const caixa = document.getElementById("video-hero");
+    if (!caixa) return;
+    const iframe = document.createElement("iframe");
+    iframe.src =
+      "https://www.youtube-nocookie.com/embed/HsgDCE9JONw?rel=0&playsinline=1&controls=1&autoplay=1";
+    iframe.title = "Villa Lobos Office Park";
+    iframe.allow =
+      "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+    iframe.allowFullscreen = true;
+    iframe.className = "absolute inset-0 h-full w-full border-0";
+    caixa.replaceChildren(iframe);
+  });
+</script>

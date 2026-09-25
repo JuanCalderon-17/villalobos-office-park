@@ -1,0 +1,61 @@
+---
+const items = [
+  {
+    title: "SALAS DE REUNIÃO E AUDITÓRIOS",
+    desc: "Espaços com equipamentos multimídia e suporte técnico, disponíveis para locação por condôminos e público externo.",
+    icon: "door",
+  },
+  {
+    title: "SEGURANÇA 24 HORAS",
+    desc: "Sistema de monitoramento avançado e vagas amplas para visitantes e condôminos, garantindo tranquilidade.",
+    icon: "clock",
+  },
+  {
+    title: "LOCALIZAÇÃO ESTRATÉGICA",
+    desc: "Em frente ao Parque Villa Lobos, com vista privilegiada e fácil acesso pelas principais vias da cidade.",
+    icon: "pin",
+  },
+  {
+    title: "SERVIÇOS DE CONVENIÊNCIA",
+    desc: "Lojas, doca de descarregamento, mensageria, estacionamento e muito mais!",
+    icon: "store",
+  },
+];
+
+const icons: Record<string, string> = {
+  door: '<path d="M3 21h18M6 21V4a1 1 0 0 1 1-1h7l5 3v15M13 12v1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>',
+  clock: '<circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5" fill="none"/><path d="M12 7v5l3 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>',
+  pin: '<path d="M12 21s7-6.5 7-11.5A7 7 0 0 0 5 9.5C5 14.5 12 21 12 21Z" stroke="currentColor" stroke-width="1.5" fill="none"/><circle cx="12" cy="9.5" r="2.5" stroke="currentColor" stroke-width="1.5" fill="none"/>',
+  store: '<path d="M4 9V4h16v5M4 9l1 11h14l1-11M4 9h16M9 20v-6h6v6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>',
+};
+---
+
+<section class="mx-auto max-w-[1521px] px-6 py-16 lg:px-[62px]">
+  <div class="mb-14 max-w-[900px]">
+    <span class="font-sans text-xl leading-5 font-semibold tracking-[2px] text-sand">
+      DIFERENCIAIS E INFRAESTRUTURA
+    </span>
+    <h2 class="mt-5 font-sans text-[35px] leading-[35px] font-medium tracking-[1.5px] text-steel">
+      UMA INFRAESTRUTURA CORPORATIVA COMPLETA PARA O SEU SUCESSO
+    </h2>
+    <p class="mt-6 font-sans text-xl leading-[30px] tracking-[0.5px] text-graytext">
+      Conte com diferenciais que garantem a produtividade e o bem-estar de todos. Nossos
+      espaços foram planejados para máxima flexibilidade e conforto para as empresas e
+      seus clientes.
+    </p>
+  </div>
+
+  <div class="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
+    {
+      items.map((item) => (
+        <div class="flex flex-col gap-5">
+          <span class="flex h-[60px] w-[60px] items-center justify-center rounded-full bg-mist text-slate">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" set:html={icons[item.icon]} />
+          </span>
+          <h3 class="font-sans text-2xl leading-[39px] font-semibold text-slate">{item.title}</h3>
+          <p class="font-sans text-base text-graytext">{item.desc}</p>
+        </div>
+      ))
+    }
+  </div>
+</section>

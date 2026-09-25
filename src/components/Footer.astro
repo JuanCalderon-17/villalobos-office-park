@@ -1,0 +1,73 @@
+---
+const suporte = [{ label: "Termos de Política de Privacidade", href: "/politica-de-privacidade" }];
+
+const menu = [
+  { label: "Home", href: "/" },
+  { label: "Sobre Nós", href: "/sobre-nos" },
+  { label: "Empresas", href: "/empresas" },
+  { label: "Calendário", href: "/calendario" },
+  { label: "Salas e Auditorios", href: "/salas-auditorios" },
+  { label: "Contato", href: "/contato" },
+];
+---
+
+<footer class="bg-fog">
+  <div class="mx-auto grid max-w-[1523px] gap-10 px-6 py-16 lg:grid-cols-[200px_405px_267px_401px] lg:gap-0 lg:px-[50px]">
+    <div>
+      <img
+        src="/img/logo_villa_lobos_v02.png"
+        width="490"
+        height="314"
+        alt="Villa Lobos Office Park"
+        class="h-auto w-[128px]"
+      />
+    </div>
+
+    <div class="flex flex-col gap-6 lg:pl-[70px]">
+      <h2 class="font-sans text-xl font-semibold text-ink">SUPORTE</h2>
+      <ul class="flex flex-col gap-3">
+        {
+          suporte.map((item) => (
+            <li>
+              <a href={item.href} class="font-sans text-base text-mint">
+                {item.label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+
+    <div class="flex flex-col gap-6">
+      <h2 class="font-sans text-xl font-semibold text-ink">MENU</h2>
+      <ul class="flex flex-col gap-3">
+        {
+          menu.map((item) => (
+            <li>
+              <a href={item.href} class="font-sans text-base text-mint">
+                {item.label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+
+    <div class="flex flex-col gap-6">
+      <h2 class="font-sans text-xl font-semibold text-ink">
+        <a href="/contato">CONTATO</a>
+      </h2>
+      <div class="flex flex-col gap-2 font-sans text-base text-ink">
+        <span>Instagram</span>
+        <a href="https://www.instagram.com/cvlopoficial/" class="text-mint">@CVLOPOFICIAL</a>
+        <span class="mt-2">Av. Queiroz Filho, 1700 Vila Leopoldina - SP</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="border-t border-haze px-6 py-5 text-center">
+    <p class="font-sans text-sm text-ink">
+      Copyright &copy; {new Date().getFullYear()} Villa Lobos Office Park
+    </p>
+  </div>
+</footer>

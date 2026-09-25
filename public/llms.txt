@@ -1,0 +1,16 @@
+# Villa Lobos Office Park
+
+Condomínio comercial na Vila Leopoldina, São Paulo, com 5 torres corporativas
+(637 salas comerciais), 90 casas de vila e 727 unidades comerciais. Reúne 75 empresas
+de 19 segmentos, além de salas de reunião e auditórios disponíveis para locação por
+condôminos e público externo.
+
+## Páginas
+
+- [Home](https://villalobos-office-park.pages.dev/): visão geral do condomínio, estrutura e diferenciais.
+- [Empresas](https://villalobos-office-park.pages.dev/empresas): diretório das 75 empresas instaladas, com filtro por categoria, contato, sala e horário.
+
+## Contato
+
+- Endereço: Av. Queiroz Filho, 1700 — Vila Leopoldina, São Paulo — SP
+- Instagram: [@cvlopoficial](https://www.instagram.com/cvlopoficial/)

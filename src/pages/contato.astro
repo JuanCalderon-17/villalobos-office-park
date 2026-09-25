@@ -1,0 +1,235 @@
+---
+import Base from "../layouts/Base.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+
+const setores = [
+  {
+    nome: "GERÊNCIA",
+    fixo: "(11) 4302-5843",
+    whatsapp: "(11) 97617-7192",
+    email: "gerente@cvlop.com.br",
+  },
+  {
+    nome: "SUPERVISOR DE MANUTENÇÃO",
+    fixo: "(11) 4302-5841",
+    whatsapp: "(11) 98887-9944",
+    email: "supervisor@cvlop.com.br",
+  },
+  {
+    nome: "ADMINISTRAÇÃO",
+    fixo: "(11) 4302-5842",
+    whatsapp: "(11) 99350-6793",
+    email: "assistente2.administrativo@cvlop.com.br",
+  },
+  {
+    nome: "CENTRO DE CONVENÇÕES",
+    fixo: "(11) 4302-5842",
+    whatsapp: "(11) 99350-6793",
+    email: "assistente.administrativo@cvlop.com.br",
+  },
+];
+
+const soDigitos = (t: string) => t.replace(/\D/g, "");
+---
+
+<Base
+  title="Contato | Villa Lobos Office Park"
+  description="Fale com a gerência, administração, manutenção ou o centro de convenções do Villa Lobos Office Park. Av. Queiroz Filho, 1700 — Vila Leopoldina, São Paulo."
+>
+  <Header active="contato" />
+
+  <main>
+    <section
+      class="relative flex min-h-[557px] items-center justify-center bg-cover bg-center px-6 pt-[169px] text-center"
+      style="background-image: url('/img/Foto-VillaBobosOfficePark6.jpg');"
+    >
+      <div class="absolute inset-0 bg-black/45"></div>
+      <div class="relative flex flex-col items-center gap-4">
+        <span class="font-sans text-2xl leading-6 font-semibold tracking-[2px] text-white">
+          CONTATO
+        </span>
+        <h1 class="font-sans text-[42px] leading-[48px] font-semibold text-white lg:text-[65px] lg:leading-[65px]">
+          FALE CONOSCO
+        </h1>
+      </div>
+    </section>
+
+    <section class="bg-white px-6 py-16 lg:px-[50px]">
+      <div class="mx-auto max-w-[1421px]">
+        <h2 class="text-center font-sans text-[25px] leading-[25px] text-steel">
+          Os contatos e as visitas são realizados diretamente com as imobiliárias.
+        </h2>
+
+        <div class="mt-12 grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
+          {
+            setores.map((s) => (
+              <div class="flex flex-col gap-4">
+                <h3 class="font-sans text-[22px] leading-[33px] font-semibold text-steel">
+                  {s.nome}
+                </h3>
+
+                <div>
+                  <p class="font-sans text-base leading-4 font-semibold text-steel">Telefone fixo:</p>
+                  <p class="mt-1 font-sans text-sm leading-[25px] text-ink">
+                    <a href={`tel:${soDigitos(s.fixo)}`} class="hover:text-mint">
+                      {s.fixo}
+                    </a>
+                  </p>
+                </div>
+
+                <div>
+                  <p class="font-sans text-base leading-4 font-semibold text-steel">Whatsapp:</p>
+                  <p class="mt-1 font-sans text-sm leading-[25px] text-ink">
+                    <a
+                      href={`https://wa.me/55${soDigitos(s.whatsapp)}`}
+                      target="_blank"
+                      rel="noopener"
+                      class="hover:text-mint"
+                    >
+                      {s.whatsapp}
+                    </a>
+                  </p>
+                </div>
+
+                <div>
+                  <p class="font-sans text-base leading-4 font-semibold text-steel">Email:</p>
+                  <p class="mt-1 font-sans text-sm leading-[25px] break-words text-ink">
+                    <a href={`mailto:${s.email}`} class="hover:text-mint">
+                      {s.email}
+                    </a>
+                  </p>
+                </div>
+              </div>
+            ))
+          }
+        </div>
+
+        <h2 class="mt-14 text-center font-sans text-[25px] leading-[25px] text-steel">
+          Endereço: Av. Queiroz Filho, 1700 Vila Leopoldina - SP
+        </h2>
+      </div>
+    </section>
+
+    <section class="h-[500px] w-full">
+      <iframe
+        src="https://maps.google.com/maps?q=villa%20lobos%20office%20park&t=m&z=16&output=embed&iwloc=near"
+        title="Mapa do Villa Lobos Office Park"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        class="h-full w-full border-0"></iframe>
+    </section>
+
+    <section class="bg-mist px-6 py-16 lg:px-[50px]">
+      <div class="mx-auto max-w-[900px]">
+        <h2 class="text-center font-sans text-[28px] leading-[28px] font-semibold text-steel">
+          ENVIE SUA MENSAGEM
+        </h2>
+        <p class="mt-4 text-center font-sans text-xl leading-5 text-steel">
+          Não encontrou o que queria? Conte o que precisa
+        </p>
+
+        <form id="form-contato" class="mt-10 grid gap-5 sm:grid-cols-2">
+          <div class="flex flex-col gap-2">
+            <label for="nome" class="font-sans text-sm text-steel">Nome *</label>
+            <input
+              id="nome"
+              name="nome"
+              type="text"
+              required
+              class="rounded-lg border border-haze bg-white px-4 py-3 font-sans text-base text-ink"
+            />
+          </div>
+
+          <div class="flex flex-col gap-2">
+            <label for="sobrenome" class="font-sans text-sm text-steel">Sobrenome *</label>
+            <input
+              id="sobrenome"
+              name="sobrenome"
+              type="text"
+              required
+              class="rounded-lg border border-haze bg-white px-4 py-3 font-sans text-base text-ink"
+            />
+          </div>
+
+          <div class="flex flex-col gap-2">
+            <label for="telefone" class="font-sans text-sm text-steel">Telefone *</label>
+            <input
+              id="telefone"
+              name="telefone"
+              type="tel"
+              required
+              class="rounded-lg border border-haze bg-white px-4 py-3 font-sans text-base text-ink"
+            />
+          </div>
+
+          <div class="flex flex-col gap-2">
+            <label for="email" class="font-sans text-sm text-steel">E-mail *</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              required
+              class="rounded-lg border border-haze bg-white px-4 py-3 font-sans text-base text-ink"
+            />
+          </div>
+
+          <div class="flex flex-col gap-2 sm:col-span-2">
+            <label for="empresa" class="font-sans text-sm text-steel">Empresa</label>
+            <input
+              id="empresa"
+              name="empresa"
+              type="text"
+              class="rounded-lg border border-haze bg-white px-4 py-3 font-sans text-base text-ink"
+            />
+          </div>
+
+          <div class="flex flex-col gap-2 sm:col-span-2">
+            <label for="mensagem" class="font-sans text-sm text-steel">
+              Comentário ou Mensagem
+            </label>
+            <textarea
+              id="mensagem"
+              name="mensagem"
+              rows="5"
+              class="rounded-lg border border-haze bg-white px-4 py-3 font-sans text-base text-ink"
+            ></textarea>
+          </div>
+
+          <button
+            type="submit"
+            class="w-fit rounded-lg bg-mint px-8 py-4 font-sans text-[17px] leading-[17px] font-medium text-fog sm:col-span-2"
+          >
+            ENVIAR
+          </button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</Base>
+
+<script>
+  const form = document.getElementById("form-contato") as HTMLFormElement | null;
+
+  form?.addEventListener("submit", (evento) => {
+    evento.preventDefault();
+    const dados = new FormData(form);
+    const valor = (chave: string) => String(dados.get(chave) || "").trim();
+
+    const corpo = [
+      `Nome: ${valor("nome")} ${valor("sobrenome")}`,
+      `Telefone: ${valor("telefone")}`,
+      `E-mail: ${valor("email")}`,
+      `Empresa: ${valor("empresa") || "-"}`,
+      "",
+      valor("mensagem") || "-",
+    ].join("\n");
+
+    const assunto = `Contato pelo site — ${valor("nome")} ${valor("sobrenome")}`;
+    window.location.href =
+      `mailto:assistente.administrativo@cvlop.com.br` +
+      `?subject=${encodeURIComponent(assunto)}&body=${encodeURIComponent(corpo)}`;
+  });
+</script>
